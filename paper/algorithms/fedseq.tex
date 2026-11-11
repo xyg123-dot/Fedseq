@@ -1,0 +1,29 @@
+\begin{algorithm}[t]
+\caption{FedSeq: complete unperturbed query}
+\label{alg:fedseq}
+\small
+\begin{tabular}{r p{.87\columnwidth}}
+ & \textbf{Input:} providers $D_1,\ldots,D_m$, query $q$, size $k$.\\
+ & \textbf{Output:} global exact top-$k$ stable keys.\\
+1 & \textbf{for each} provider $i$ \textbf{in parallel}:\\
+2 & \quad Compute $\ell_F$; sort $L_i$; reset distance cache $C_i$.\\
+3 & \quad Send $S_i=\mathsf{LocalKLB}_i(k)$ to broker.\\
+4 & $S\gets\Top_k(\bigcup_i S_i)$; $a_i\gets$ origin count in $S$.\\
+5 & $\mathsf{cold}\gets(\exists i:a_i=0)$.\\
+6 & $A_i\gets\mathsf{LocalKNN}_i(a_i)$ for every provider.\\
+7 & $R\gets\Top_k(\bigcup_i A_i)$; retain all first replies.\\
+8 & \textbf{for each} provider $i$:\\
+9 & \quad \textbf{if} $\mathsf{cold}$:\\
+10 & \qquad $F_i\gets\min_{x\in D_i\setminus A_i}L(x)$ (or $+\infty$).\\
+11 & \qquad $b_i\gets|\{y\in R:K(y)\prec F_i\}|$.\\
+12 & \qquad $s_i\gets0$ if $A_i=\varnothing$, else\\
+ & \qquad\quad $|\{y\in R:K(y)\preceq\max K(A_i)\}|$.\\
+13 & \qquad $t_i\gets\min(k,|A_i|+k-\max(b_i,s_i))$.\\
+14 & \quad \textbf{else} (DANN allocation fallback):\\
+15 & \qquad $p_i\gets$ rank of $\max K(A_i)$ in $R$;\\
+ & \qquad\quad use $p_i=k$ if absent or $A_i=\varnothing$.\\
+16 & \qquad $t_i\gets a_i+k-p_i$.\\
+17 & $E_i\gets\mathsf{LocalKNN}_i(t_i)$ for every provider.\\
+18 & \textbf{return} $\Top_k(\bigcup_i(A_i\cup E_i))$.\\
+\end{tabular}
+\end{algorithm}

@@ -1,0 +1,37 @@
+\begin{figure}[t]
+\centering
+\resizebox{\columnwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sffamily\footnotesize,>=Latex]
+\fill[FSblue!3,rounded corners=5pt] (1.85,.85) rectangle (8.2,4.8);
+\draw[FSblue!55,dashed,rounded corners=5pt] (1.85,.85) rectangle (8.2,4.8);
+\node[anchor=west,font=\scriptsize,text=FSblue] at (2,4.56) {Internal summaries, candidates and frontiers};
+% Client pictogram.
+\draw[thick] (.65,2.8) circle (.16);
+\draw[thick,rounded corners] (.34,2.22) -- (.34,2.43) arc(180:0:.31) -- (.96,2.22);
+\node[below,align=center] at (.65,2.07) {Authorized\\user};
+% Broker server stack.
+\foreach \y in {2.23,2.51,2.79}{\draw[rounded corners=1pt,fill=white,thick] (2.55,\y) rectangle (3.55,\y+.2);\fill[FSblue] (2.7,\y+.1) circle (.025);\draw[gray] (2.93,\y+.1)--(3.4,\y+.1);}
+\node[below,align=center] at (3.05,2.06) {Broker\\allocation / merge};
+\draw[->,thick] (1.08,2.85) -- node[above,font=\scriptsize]{$q,k$} (2.45,2.85);
+\draw[->,thick] (2.45,2.3) -- node[below,font=\scriptsize]{top-$k$} (1.08,2.3);
+% Autonomous local databases, drawn as cylinders.
+\foreach \y/\p in {3.75/1,2.5/2,1.25/m}{
+ \draw[thick,fill=white] (6.7,\y-.27) -- (6.7,\y+.27) arc(180:360:.44 and .12) -- (7.58,\y-.27) arc(0:-180:.44 and .12);
+ \draw[thick,fill=white] (7.14,\y+.27) ellipse (.44 and .12);
+ \draw[gray] (6.7,\y) arc(180:360:.44 and .12);
+ \node[anchor=west,align=left,font=\scriptsize] at (7.7,\y) {$P_{\p}$\\$D_{\p}$};
+}
+\draw[->,FSorange,thick] (3.65,2.84) -- (6.58,3.72);
+\draw[->,FSorange,thick] (3.65,2.65) -- node[above,font=\scriptsize]{$u_i,v_i$: requests} (6.58,2.65);
+\draw[->,FSorange,thick] (3.65,2.42) -- (6.58,1.42);
+\draw[->,FSteal,thick] (6.58,2.33) -- node[below,font=\scriptsize]{$S_i,A_i,F_i,E_i$} (3.65,2.33);
+\node[font=\scriptsize,align=center] at (5.05,3.78) {Local bounds, exact prefixes\\and query caches};
+% Observer outside internal-state boundary.
+\draw[FSred,thick] (2.63,.3) .. controls (2.88,.62) and (3.23,.62) .. (3.48,.3) .. controls (3.23,-.02) and (2.88,-.02) .. (2.63,.3);
+\fill[FSred] (3.05,.3) circle (.09);
+\draw[->,FSred,dashed] (3.05,1.25) -- (3.05,.65);
+\node[anchor=west,align=left,font=\scriptsize] at (3.75,.3) {Quota observer:\\released $(\boldsymbol u,\boldsymbol v)$};
+\end{tikzpicture}}
+\caption{System model and the quota-observation boundary. Providers retain local records; the broker coordinates summaries and two retrievals. The shaded region denotes the logical protection assumed by the quota theorem, not hardware SGX in the benchmark.}
+\label{fig:system}
+\end{figure}

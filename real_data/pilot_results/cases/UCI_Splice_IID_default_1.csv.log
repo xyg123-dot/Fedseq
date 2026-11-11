@@ -1,0 +1,7 @@
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=2928 queries=12 repeats=2 build_ms=126.462 build_cpu_ms=126.459
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+baseline 92.3988 92.3968 1 0 2923.5
+dann 98.2496 98.0183 1 0 2915.08
+dann_gram2 124.426 124.369 1 0 2914.58
+fedseq 83.4706 83.3866 1 0 2823.75
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv

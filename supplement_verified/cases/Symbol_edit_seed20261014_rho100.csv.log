@@ -1,0 +1,9 @@
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=8000 queries=50 repeats=3 build_ms=35.0915 build_cpu_ms=35.0877
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+baseline 170.114 170.097 1 0 7616.06
+dann 156.175 156.162 1 0 7361.18
+dann_gram2 142.436 142.34 1 0 6290.14
+dann_star 170.23 170.217 0.998646 6 7591.53
+fedseq 8.46804 8.4668 1 0 203.92
+fedseq_star 143.466 143.453 0.998542 4 6327.24
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/Symbol_edit_seed20261014_rho100.csv

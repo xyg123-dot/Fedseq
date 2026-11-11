@@ -1,0 +1,24 @@
+\subsection{Experimental Setup}
+\label{sec:setup}
+\subsubsection{Environment and compared algorithms}
+We use an AMD EPYC 9V74 host, Linux 6.18.44, GCC 13.3.0, and C++17 with \texttt{-O3}. Native queries execute providers serially in one process; independent configurations run on distinct CPU cores. The TCP experiment instead uses concurrent provider processes, real AES-128-GCM encryption, and modeled 64 ms RTT/100 Mbps links. CPU frequency is not fixed; speedup claims use paired measurements within a configuration. Retrieval is outside hardware SGX.
+
+Baseline retrieves local top-$k$ everywhere. DANN uses the count bound and positive-floor allocation~\cite{fedknn}; DANN$^*$ retains shifted Laplace noise, upward rounding and padded replies, recalibrated to the joint quota budget. FedSeq and FedSeq$^*$ are our methods. Clean ablation crosses order filtering and cold scheduling; noisy ablation compares frontier Laplace floors one/zero and geometric floor zero. DANN+Bigram adds exact-byte two-gram counts to DANN. All share byte-level Levenshtein, stable keys, query caches and a scan backend; the MinSearch index is excluded.
+
+\subsubsection{Datasets and provider ownership}
+\textbf{DNA and Symbol.} Two controlled populations model federated fragment and categorical event matching. Each has 8,000 unique length-128 records in four equal families. DNA uses \texttt{ACGT}, with 80 dominant and 16 occurrences of each other symbol. Symbol uses 20 uppercase letters: five family symbols occur 17,17,17,16,16 times, and the rest three times. Seeded family centers generate 40\% of records with 2--6 unequal-symbol swaps and 60\% with 32--64; duplicates are rejected. Swaps preserve composition but do not guarantee disjoint distance strata. Population seeds are 20261010/20261011. Of 52 held-out queries perturbed by 2--6 swaps, the first 50 are fixed throughout (13,13,12,12 per family).
+
+IID shuffles and distributes records round-robin. Non-IID assigns each family to $m/4$ home providers, balancing volumes. Assignments are frozen across $k,\varepsilon$ and generated separately for each $m$. Three additional seeds (20261014, 20261024, 20261034; Symbol offset by one) vary family concentration $\rho\in\{0,.25,.5,.75,1\}$ at $m=8$: fraction $\rho$ goes to two home providers, the rest is mixed, preserving 1,000 records per provider.
+
+An independent generator applies 4--32 edits to four random centers (insertion/deletion .2 each, substitution .6); 50 length-128 queries receive 4--8 distinct substitutions. Three seeds and $\rho\in\{0,.5,1\}$ test all five methods plus Bigram. Three unclustered DNA populations remove family structure. Each control has 8,000 unique records.
+
+\input{real_setup}
+
+\subsubsection{Parameters, metrics and measurement protocol}
+Defaults are $k=128$, $m=8$, $\varepsilon=1$, $\lambda=.05$, $g=1$. One-factor sweeps use $k\in\{4,8,16,32,64,128,256\}$, $m\in\{4,8,12,16\}$, and $\varepsilon\in\{2,1,.8,.6,.4,.2,.1,.05,.01,.001\}$. The common default measurement is reused; noisy rates follow (\ref{eq:calibration}) as $k,m$ change. Every confirmation/control configuration uses 50 fixed queries and three repeats, warm-up, randomized method order and private OpenSSL noise independent of public data seeds.
+
+The primary metric is total process CPU per query,
+\begin{equation}
+ T_{\mathrm{CPU}}=T_{\mathrm{broker}}+\sum_{i=1}^{m}T_{P_i},
+\end{equation}
+checked against per-provider records. Bounds, sorting, allocation, noise, dummies and exact distances are timed; loading, initialization signatures, the shared query histogram, oracle and warm-up are excluded. Exact-distance counts, quotas and cold-provider statistics explain CPU changes; concurrent wall time is measured separately in the transport study. Repeats are averaged within each query before 2,000 fixed-seed query-bootstrap resamples give 95\% intervals; 150 repeats are not treated as independent queries.

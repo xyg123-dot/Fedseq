@@ -1,0 +1,26 @@
+{
+  "id": "Rfam_raw_NonIID_epsilon_0.6",
+  "runs": 300,
+  "core": 8,
+  "seconds": 62.32656264305115,
+  "inputs": {
+    "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+    "--queries": "5e634921cb75415d5bc568dbdb9039bd5cbb688b2be06e1f6ea948d6d407d14e",
+    "--assignment": "851e2453b1801aefdf7a1f6e7ed3393682278c9d410ef982e3125718d0eb48f4"
+  },
+  "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+  "outputs": {
+    "Rfam_raw_NonIID_epsilon_0.6.csv": "72b92e16514eb5b5a2191945c5debae15d480193c2868489087d64f553f9e78b",
+    "Rfam_raw_NonIID_epsilon_0.6.csv.audit.json": "26f0a696a6468e21901dac0839859bb7318b35e0e758aa84cde09127e9593bd1",
+    "Rfam_raw_NonIID_epsilon_0.6.csv.nodes.csv": "0f6127be9682dabc825ccc50ddecb658bafde81dac2de024b6a649a9fae3d4e8",
+    "Rfam_raw_NonIID_epsilon_0.6.csv.allocations.csv": "6e71c4d90cb4892b33efd9f1be5723b52599e9324775180d439e560d690dfc34",
+    "Rfam_raw_NonIID_epsilon_0.6.csv.failures.csv": "54e92591d8fc9b00e7877b8fd45f37d56d705331038fdc43152cd84964c00b29"
+  },
+  "audit": {
+    "checked": 6,
+    "distance_errors": 2,
+    "tie_only": 4
+  },
+  "strict_failures": 6,
+  "distance_failures": 2
+}

@@ -1,0 +1,46 @@
+{
+  "database": {
+    "records": 12391,
+    "families": {
+      "RF00001": 12323,
+      "RF00006": 68
+    },
+    "length_min": 48,
+    "length_max": 178,
+    "over128": 89,
+    "ambiguous_records": 46,
+    "unique_sequences": 10326,
+    "exact_sequence_overlap_with_database": null
+  },
+  "pilot": {
+    "records": 20,
+    "families": {
+      "RF00001": 20,
+      "RF00006": 0
+    },
+    "length_min": 58,
+    "length_max": 119,
+    "over128": 0,
+    "ambiguous_records": 0,
+    "unique_sequences": 19,
+    "exact_sequence_overlap_with_database": 5
+  },
+  "confirmation": {
+    "records": 50,
+    "families": {
+      "RF00001": 50,
+      "RF00006": 0
+    },
+    "length_min": 79,
+    "length_max": 123,
+    "over128": 0,
+    "ambiguous_records": 0,
+    "unique_sequences": 50,
+    "exact_sequence_overlap_with_database": 11
+  }
+}
+DONE Rfam_raw_SourceGrouped_pilot 45.0
+DONE Rfam_raw_IID_pilot 45.9
+DONE Rfam_raw_SourceGrouped_confirmation 168.8
+DONE Rfam_raw_IID_confirmation 169.2
+ALL COMPLETE

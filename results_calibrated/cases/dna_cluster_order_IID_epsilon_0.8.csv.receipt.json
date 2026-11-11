@@ -1,0 +1,16 @@
+{
+  "id": "dna_cluster_order_IID_epsilon_0.8",
+  "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+  "cpu_core": 1,
+  "cached": false,
+  "wall_seconds": 59.123979330062866,
+  "runs": 750,
+  "strict_failures": 25,
+  "nonnoisy_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv": "bc8390ee2819cb66f05c4f2d1588f4db89d06635ca0162f8e2e594f53481785b",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.allocations.csv": "1dcfbbd0cbcf0eea2cc2505e5954c7a06ff2143f1d9c0e52db3e5c9474ad28c9",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.nodes.csv": "3182e6b03b09cedf780841fb92a9026aaee7d295ca232f19846741400cb84e70",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.failures.csv": "0521a0e1c3eba82d57c91d449be359676afec94954d999ed6be75e57fabf2199"
+  }
+}

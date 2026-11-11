@@ -1,0 +1,1290 @@
+{
+  "total": 80,
+  "completed": [
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 48.019261837005615,
+      "runs": 750,
+      "strict_failures": 10,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.2.csv": "7d2aed7737357f2339f01d196d514280f3eb31faabadad6a960b38e5843c3c92",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.2.csv.allocations.csv": "f195e255844f949f4ca132d1610d7f13ba9487355f554fd340333c6f0f5914a4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.2.csv.nodes.csv": "007af03619b60259c8303e7b86e8bdc14925f402f85fbe7a4b46443e5548bb15",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.2.csv.failures.csv": "f6fc8795ddd7544fb305afe52bb8d3e8108616cadfe5d952dca6cc1e10fc9e80"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_ablation_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 80.72258806228638,
+      "runs": 1350,
+      "strict_failures": 53,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_ablation_1.csv": "7ad463310fb9d52d5cb746bda776156a918463b8008777f88d6441887956de11",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_ablation_1.csv.allocations.csv": "d7908784f54e1408e8267befb916e97fad52003ff7551870d57a2fad1b9aa5c8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_ablation_1.csv.nodes.csv": "530d82cfe57caa952a98068d4f344778e5971fea825dff49a17fc6e7898eb1c7",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_ablation_1.csv.failures.csv": "4a11c8e8cb31b63e4394fb2eac79d66788a5aba75731fcbfd6df1447b3227285"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_default_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 44.236088037490845,
+      "runs": 750,
+      "strict_failures": 21,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_default_1.csv": "f67ea35cf06d0bb63624d8b03689f47918570523faeefa66a054519a89110276",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_default_1.csv.allocations.csv": "add048a0e79f56501d658acc1598f2648db19e1d45a2391cae6362bd6b467513",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_default_1.csv.nodes.csv": "36e15c60e664575739bb6c3d56b0dab1295433193c602c58691f4ea82f93ff28",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_default_1.csv.failures.csv": "dfd522e806533e49d491467ec98d8f0eac44a117e7e36ff8b67757ca1a5bec2f"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 141.6993169784546,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_8.csv": "274a0ea60904b80626d955a6bca09e8733c521eb2daf7afccb61242d14470385",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_8.csv.allocations.csv": "a30496605fabeabafa7b9ef3d85963f32bccb320895d09be9cbabc3f004eefc2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_8.csv.nodes.csv": "b4271ad8fd73e6390676fb24713f8d3a549983182a3a87788717adc6526ef608",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_8.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_m_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 147.69763088226318,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_4.csv": "29c9004ce8324f1d05c8111e2026145ce6d7c74c2c72dc36fc88ce2c96c866ef",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_4.csv.allocations.csv": "9ad426f801ed1e1e860284042fc87883809223ea2c027a24b12dfb0785a0fc88",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_4.csv.nodes.csv": "f7d86229b8cdc7872b7d067400a23db081f64933cb1086f441b01804b7bf1911",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_4.csv.failures.csv": "86e25eb6a6dc45dac205aa2cc91e864480d1c9d14a71ff486d6aafdaeb6e90da"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_m_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 150.08342361450195,
+      "runs": 750,
+      "strict_failures": 11,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_16.csv": "0e2b5eb360740e65eeb208637f985bc5ba653b34849abcf8cf37168d5b3ecddb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_16.csv.allocations.csv": "02b9070791da6514d4d404d46a9cd39a6ad7e7025a66f0c9732c06be3cf9a07c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_16.csv.nodes.csv": "9c3a23be7695bce3b7da3cb869daa1afc5a88e8f1c6617b08d3fcf4d4d4784f7",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_16.csv.failures.csv": "48af27b43fdc80afe57174972bd84b12bf595ed6239879ffa49ba84cd906bc80"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.01",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 44.1855833530426,
+      "runs": 750,
+      "strict_failures": 9,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.01.csv": "48906be30a1f3ab59184b390bb17742f2758a6353c45391efadbbeac3dc26843",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.01.csv.allocations.csv": "2380a486cb3b1e7df86b784c3d0958f5c88d37c858c8e04a2d5da5e42a7e7326",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.01.csv.nodes.csv": "abbffde6ccdf7415e361fa38eaa99d0793c12ad40d090410a9335ddd3410cba1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.01.csv.failures.csv": "ac3054f2c938ab808af47b310b4744ca57f82709b6a7d54d9054b3c4fab02ed9"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_m_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 142.50590252876282,
+      "runs": 750,
+      "strict_failures": 37,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_16.csv": "712b412e41dd685993e10f29815e2b8dbfd3c5da8113d99652ff37371a6195c7",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_16.csv.allocations.csv": "4ecafb67e168b9c36625aa530c29f5603ae45e0ac7c89a7882cb8386e2576ad4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_16.csv.nodes.csv": "356645b50eb741e9860cc4a5517b59ead5f756f571925853bb69997241a5116e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_16.csv.failures.csv": "e88efe06516a7dc61665a5ecf4c18d0ce5e3380c6eb1ecdb4904d4000d28aadc"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.001",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 146.53573966026306,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.001.csv": "00ba6f51dbc93fdfded39cd06aba15bf1f0fa733b7a7110df357abdd6ba394c8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.001.csv.allocations.csv": "1b29108add87b9ca3907fa2bf5040f2e96998153da3adf99160f6a0f40af70c9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.001.csv.nodes.csv": "e8dfdecd924c1b1c24e2b90f163063864a0e4e3def317a69983ce4036090723c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.001.csv.failures.csv": "b973fd7857b1bb833ac4e1600bb63216e1d4666b560924ac60fbca14a5c9580a"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 135.68638253211975,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_8.csv": "0076e061a48d0188f879d534ed6e43fcb20ff106096396fc23ca134348fc7c01",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_8.csv.allocations.csv": "69e134dad47861296c464ff5733802ade1950383fb0009a80867eb9b87280a03",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_8.csv.nodes.csv": "7f42eaf3be5bd208d2c9ae50383faddeb7168acebd06f11201fbd5ad3d22cd5b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_8.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 144.28054523468018,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.1.csv": "7dafe8aa3baafb091bdda7c9c54bb83bb83f166714d13ae8734e97da368e2df8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.1.csv.allocations.csv": "0cd7775bd92f103d3ea71023a4f2a261306dcf4da8e3db5c4d6ac05844eeb753",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.1.csv.nodes.csv": "0394a1d98da51a2e80cd194c343973cc789827943f218a8d16e2e2250fab019c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_32",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 44.22416687011719,
+      "runs": 750,
+      "strict_failures": 8,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_32.csv": "f1390cd89471eacb97163cf397d21dbad85d0da8eefba3aa01d4adf12778adfb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_32.csv.allocations.csv": "5274af90c471e4f16f18c9f3d8c8862a2965190ac44565b207b80a9b35ff727e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_32.csv.nodes.csv": "b7ab3297483373f77597512e61231319054eb92bea611586c5f53eec6d57b025",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_32.csv.failures.csv": "d4de55485d983290ea15c29f702c6be58e8544e3ed0eb044601afcc0b9ab003b"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 151.0331573486328,
+      "runs": 750,
+      "strict_failures": 7,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.4.csv": "df4744f0042bf5044891a283060fadb03d8d0c7ced8b3d3a883e180d7868da42",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.4.csv.allocations.csv": "e3dfcd7d774c92e93cca987ca461ee55c6faf91f0a62d59a9f05d327bf2373b9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.4.csv.nodes.csv": "70a66f6a69b51126fb5da87b90e5533b6f2bc7fdcb3d685c2b0e54bb6943508a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.4.csv.failures.csv": "fa7199b2f60ecb9d65b4dd0806ba6997daf76fcb58a98a7da4f6fd514b33ab70"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_32",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 151.12776231765747,
+      "runs": 750,
+      "strict_failures": 3,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_32.csv": "9e863e707f0adedf8bed118d4729c3562644581b58f1a9a5a244d02283c4c6d0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_32.csv.allocations.csv": "deea5f1dc8d66e3dbf503a95532dcf821609c5ec3354586b9ef940648f4a466e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_32.csv.nodes.csv": "52f9108c52c5fc2d71278f7ca2d130ca427114de2066c5d2e6e53872f4f4f406",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_32.csv.failures.csv": "64e519d29faf96ac6056f78cd3f043521c7a39fa495309f33720d43112d77161"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_64",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 47.572500467300415,
+      "runs": 750,
+      "strict_failures": 15,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_64.csv": "b7244d0f2a42caf5749a421c61551e635d8292f7361d95b6a182e86ede62a2f0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_64.csv.allocations.csv": "d7e1abae32dce7f9003e7ef878699a62f7508c62dd92ee713d6cc8ac2b84fc1e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_64.csv.nodes.csv": "cc739cc780aa706130e3e0d0e7ae9c492dc170e3df7fe6179868f0fe64de1a10",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_64.csv.failures.csv": "87aae9d36e400d1d3a8dc9dfe2f3708c126cfb8d3a383eafebdcf970052c2c73"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_m_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 169.09585881233215,
+      "runs": 750,
+      "strict_failures": 32,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_16.csv": "2013dd6fdf9885c657bfa6906d6077f13214a942c5484150b770c3a0889ceb0d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_16.csv.allocations.csv": "793f0699be637b91cd15f4cb925166c17e6435657a9032212501f3babab004f6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_16.csv.nodes.csv": "e89646287be00c1224733145135822ed482475915b22cac84a856cf63058710a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_16.csv.failures.csv": "7037b017358e91d1a9b119aa6ee43b7fb91b2c6a19835de932b66c157d912ddf"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.05",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 56.22940397262573,
+      "runs": 750,
+      "strict_failures": 5,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.05.csv": "02c7d174fe2a3a105411cc0d275dce22f4c010713adc11c7870bd9f56ee1d6b1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.05.csv.allocations.csv": "90e1742f87835347c9e220210f0f97b035dbf966c7da10ec1fdf27979f46ca97",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.05.csv.nodes.csv": "20b56504d28fef53d129a177ef2b0fc0a16ddb83d2d0be74703fb5a92c099302",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.05.csv.failures.csv": "efa8b6232d87f6da8b4a991fd0ad4038c995a4b5cd731dc064e5cd43aa5cd205"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_default_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 167.4430136680603,
+      "runs": 750,
+      "strict_failures": 11,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_default_1.csv": "6fa4c8636d94587b21a3df5264368da6f3b2ed742629c82494f2257aea41bfea",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_default_1.csv.allocations.csv": "4dc60a3ee950689683fd13af6116bc31a64dde593537fdf60ed3fd095ebb4e56",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_default_1.csv.nodes.csv": "70c2fcdf886d5985ecc344a9029bf41254170fb1771070e71df21ccce102f9da",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_default_1.csv.failures.csv": "5ea7f108f31c320c12ac85cf2452fb25c7fd432fa80db074b4fc1ece136847b9"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 55.942885875701904,
+      "runs": 750,
+      "strict_failures": 6,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.1.csv": "50dc464f44fbfcb660990632ea7b696129eb7c6a4385837b6c198a117dc4c3a6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.1.csv.allocations.csv": "503cc702cb2ae1048f4b6baca55f553ed1136cbba2fed114c6307336e459d27a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.1.csv.nodes.csv": "19a7ad9a278383192063440190dd5ea8c5a034be3b8591fc30ab8c4757a8773c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.1.csv.failures.csv": "f6dbd396a96110cf4589920f9e8a8abfcb4495dc6e129b301835155c641587eb"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 166.75418639183044,
+      "runs": 750,
+      "strict_failures": 6,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.4.csv": "0cdca8763f9c50b30349fcac05580d5f34cba1484b783b7e94c4b95199392284",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.4.csv.allocations.csv": "2ca5e025a1a401b65f9b0186e5e4b24169ea233c4233d9123baabe37ebbb472d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.4.csv.nodes.csv": "0f6da2ad582e3c5685d90d5abc8bfed4a9f3a2a665e7125a9044f33f688981bb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.4.csv.failures.csv": "195432f517e7491c2c441fbc8f059e57914816362c24edec0eed0fdc84210d01"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_256",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 124.92997455596924,
+      "runs": 750,
+      "strict_failures": 52,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_256.csv": "0f844a8589e19790cecb1cfa92f2d7745266e4b6afbad6cc3ac38a11c03e46e2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_256.csv.allocations.csv": "0a40bc37d70aa7c74bb938567d85a70fe23de2ca80361e54f87bf46607667196",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_256.csv.nodes.csv": "dd11d25f8c73533dd514dc4f795bb1f38c8654de2208735fd6f60b350c4bf4b1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_256.csv.failures.csv": "e2675f956023004c4f8d977f87a0995f9afd37894b24eff404ade8b60e284cf7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 39.14470839500427,
+      "runs": 750,
+      "strict_failures": 4,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_16.csv": "88abed774a0cd59396dce45f277dff31b534ba4929b086f841b1bf8bef93d2a1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_16.csv.allocations.csv": "c9f74472e2731730eaf221e4904a0504a7ff2d02ad17d4e0c63827430fc55512",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_16.csv.nodes.csv": "4301789ca03b6ce88e20e88e1cf05956b8401c66bbe3d5712fae3f4c1d87db4f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_16.csv.failures.csv": "81b8df33bde8b203a3856feadcd7f977bff97c2886ee39c4054816247cf054bd"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_256",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 159.8435447216034,
+      "runs": 750,
+      "strict_failures": 12,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_256.csv": "048b57babed3ed73b28f2f3206f2e419485f3f79bf6ac9ff3d54e12166252785",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_256.csv.allocations.csv": "efe80d55b26829ca672d15f62d2c2309cf684c142a0614cc43312c95bd7f31fe",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_256.csv.nodes.csv": "8515019058eb8a8f1aa92c6f70dd5efcb64dfdb51266f72bbf1455d1f0b00bf8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_256.csv.failures.csv": "9d78cf57128f820db63acf1c3bfbd48cf9c3dbf48ea2d503e8f470f89e9f372f"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_64",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 150.22807264328003,
+      "runs": 750,
+      "strict_failures": 8,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_64.csv": "de6c5a60c5290c31198d917c3fdec1368f6d6dd8d88bc9294c4e30f4f96ec5e4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_64.csv.allocations.csv": "dc2090c0c96e8f30436a33423f93066a910155371d1d2e9e8dd70f73c1a759bc",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_64.csv.nodes.csv": "1c91eaea6ddf1f26f92c9b8e3eb6dadb62073760e409bf33ad106ec82abd706c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_64.csv.failures.csv": "5089525f9dbde0cd754ab12f14daa3cade1721761e35ed4b644f26b2e29a712c"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_m_12",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 149.5231475830078,
+      "runs": 750,
+      "strict_failures": 12,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_12.csv": "b145a5da1b70ca8b5c0476b2f591b54a039f5de423cf49ed1c1f00c96ae486ec",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_12.csv.allocations.csv": "c4df1f635103cece37345c9db0f8d995af2260a6dc9575e2d90395350548a700",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_12.csv.nodes.csv": "7e1eb30ff4628c133b5a2a9650cc523248df3215678e1564b7ebc7612ed60091",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_m_12.csv.failures.csv": "0855304126d88e5b963330b16580730b54c555b4b3f2713f824799bcf9191567"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 37.612241983413696,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_4.csv": "bdb3be91bedc8d9dbf42f65fdea272c1795673092ecb7a4bd809a89e81aff968",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_4.csv.allocations.csv": "cce9a55e665e1c6a36104511b70a3f9c730a444c64eb97a9f4f4bd102c80dbdb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_4.csv.nodes.csv": "942c1e10e36ae54476af541c7eac9501bc96573b68bbe4322b36f778e6edad21",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_4.csv.failures.csv": "3acae5ad69f28ab8cdd6d0a1d3ced600d24c33da22028127460226f053184c9b"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_m_12",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 49.486248254776,
+      "runs": 750,
+      "strict_failures": 32,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_12.csv": "85242287db3de7b773e840acc5f841d8751f0cefda73054558c3ca96383cd1a3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_12.csv.allocations.csv": "ca0dd0a5a841cb15979711ce747547b25f718781edecf2c196e1fe7d1690d3e2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_12.csv.nodes.csv": "caee4cdac66aaa4b27f2f3d0c4027cf31c8d8dd6fb7361a105e98f4da2d1d4c4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_12.csv.failures.csv": "e0a16fe99170d5e6902000ac41f8944eae8344787b95ab49db08b254665b5bef"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_32",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 144.2491056919098,
+      "runs": 750,
+      "strict_failures": 3,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_32.csv": "18b5d22029e289a7fb6285bac852d491e75eb688eb5d746ac27de55b546bdd24",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_32.csv.allocations.csv": "2e88cf54a57c0e1ac58213c6b72dae6de12c55b9cf04ce325abc5a4895f7377c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_32.csv.nodes.csv": "8146de56d7137ba790e4fb706a40232ca3e8a39de74211bc55b569c49e4b4dd2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_32.csv.failures.csv": "bae776d8fb4e3e925643a655700a9e984d4f29065e5aba819a2184f958d2ecc1"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 44.12133836746216,
+      "runs": 750,
+      "strict_failures": 26,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.4.csv": "8a064f7d721172a2dad8aaa62bf1afac9fb1d5ea9860c8cfdd7dac5d0168eb20",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.4.csv.allocations.csv": "b600c0e1686f0d69736f84963b695d611e09ec8197f35bfd37d1376351fd02a6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.4.csv.nodes.csv": "4ba2f2658f9339c6ab64356c086c22d56b8c86519ad7ceee81e738338b5df014",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.4.csv.failures.csv": "f5962780444881ecf3e1f0b52a49425232a86f302632e16529c01f3d2d561c6a"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.01",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 48.550222635269165,
+      "runs": 750,
+      "strict_failures": 5,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.01.csv": "423831977e366f634273556634c4b1d76119246c2dd6181262a106d53f6994f2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.01.csv.allocations.csv": "446ef5ff0772390f482ad2ea7deb8ea600ebe389bceb3b5372abf64ce9eb0ddf",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.01.csv.nodes.csv": "9f027c88f2fb82f00654872004c9eca7bf5d835ed491d365d2c621d6c2ad9391",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.01.csv.failures.csv": "c2430f35b7cbafe9a678b356447646ea2f8cbca0cc78673fe4151a9021d6e877"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.6",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 149.0070128440857,
+      "runs": 750,
+      "strict_failures": 9,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.6.csv": "db28f1147b71f7d878b02925d8d4316157a06134ae735c1b3413bd0a3d1e58f4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.6.csv.allocations.csv": "60d66e8a3abdf0c64aa498a94d97e37d16e3fe31cd36d22e442e8005b5bec74e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.6.csv.nodes.csv": "59f2a35cf70ab98eff2e3753ceebe7654e28b5d5b8a101a92f8a9fbdd8fe68a5",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.6.csv.failures.csv": "02fac459d288eecad871eef441c2e97dae6dfc35eb0e0987ac6fbcd4ea4cdc3f"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_ablation_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 243.99290132522583,
+      "runs": 1350,
+      "strict_failures": 27,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_ablation_1.csv": "e8be7479981dae6cb8146f8e16250f4197dc850770b279eb728e55de8f4f031e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_ablation_1.csv.allocations.csv": "650ff9c3642220724bf2080aa01a71f82093fb67721657c38a5b8a693519fec1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_ablation_1.csv.nodes.csv": "720f5b47fe5aad73d9cf4f98b160e1a18da73aa434f3445861bbc6a3d28d3acb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_ablation_1.csv.failures.csv": "4e2d535085abffba607c78ec7626451db12d4151f0ef3aed0cbe0561ea459a6f"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_64",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 147.7939851284027,
+      "runs": 750,
+      "strict_failures": 7,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_64.csv": "ca00028dc9e6b5a488db952b8f455c9b0ad0a1272f63581c6c67521b0b5767d8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_64.csv.allocations.csv": "5468d511b44550dca805fe1b8df728379a3af8ffefc2f545a2fe350a34188340",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_64.csv.nodes.csv": "be7dadc76821c67ffadcf289cd8aab1b5b6e2d846a1b80c34f7d1d5297f4b719",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_64.csv.failures.csv": "bf7091ae0f1a607ec4a87e831789edef54ad876e42ac9e1d0c427f7c963da510"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_ablation_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 79.46210217475891,
+      "runs": 1350,
+      "strict_failures": 32,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_ablation_1.csv": "ea45be1497ed808b15a21ab35ab58817ef5adee7a0ba2cbc43d7723fd57abab4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_ablation_1.csv.allocations.csv": "1e2ac181c678a7cee6ebc4389238c74f38a92c70e3a3f5d0025e8a14f67be1bd",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_ablation_1.csv.nodes.csv": "0c93be8308cdfa4f1e335b048ffd67142f30997becf89b850bd840aaf8c2a196",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_ablation_1.csv.failures.csv": "877585dfd1318f533a300823c31ae11e2ce597d470409f2e88714eaf8692d257"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_m_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 50.58653712272644,
+      "runs": 750,
+      "strict_failures": 22,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_4.csv": "ef80f62a506f497651a002497911bc6cb02d6223556e936b3e23f5c3f383728b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_4.csv.allocations.csv": "691e1e94c5851fa18e51d000f0afaad05e7defebc4ec735d08b334a891f53e19",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_4.csv.nodes.csv": "447539dc8346fc03fd1739dbe43e6375c7b6c09a48f1a5c3697b5d74f65cee85",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_4.csv.failures.csv": "0ed29b8bf4292c4fa004963f2ea8e1d92a72c8acbf356f6410531d01c647ead5"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_m_12",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 117.32915687561035,
+      "runs": 750,
+      "strict_failures": 31,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_12.csv": "94e16859428855b37c13ed80ae790c86207f2fa02bedfbf0eff031f163ce57ca",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_12.csv.allocations.csv": "9ac6a2624267a55119672ccf62257fdfd7461716595d76b488420ff5b30bafe9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_12.csv.nodes.csv": "0779734c1dcc42406fb5898d6dff0b061ca3cfd0cabb7c8562a689ae59465ae0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_12.csv.failures.csv": "b48bb7a2987edb4f0c285b198a894c8b4d4d4c8a9871e0706d4f7f50f8b72507"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 54.81773900985718,
+      "runs": 750,
+      "strict_failures": 32,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.8.csv": "85e05a754034ae721721e3c27e600134afdcc55857f96fce3f4b91be7167c7fd",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.8.csv.allocations.csv": "eb0e1b4cb524a29b4979ae722a2b1fbe5d9d23755931db35a65ab8928a77fa4c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.8.csv.nodes.csv": "c4779d11cd2f8ee12ef3af731c331b95817d6d42ded19ce78f599d6ab74a0e46",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.8.csv.failures.csv": "8523d9b9e03d1ed438bdfb196783c055b2aaf842925c9d67bcd4c839533356c4"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 164.7510106563568,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_16.csv": "978997ca42373404b23e1c64ac0d4761c5e014fbd1a30d35888560317b72bfdc",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_16.csv.allocations.csv": "3d222a8caf769f364e1706d30ae27c19631ad55089e328c5abd316eabe8bcb1a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_16.csv.nodes.csv": "2ed9913a9b0d8b8c84210341def971af6d09682467b23b58d750005b55899b2a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_16.csv.failures.csv": "9e977a6be435c69f7bc172c1f59ad596c8c9793aac722ee95da2ffda3c99fbcd"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 43.504968881607056,
+      "runs": 750,
+      "strict_failures": 2,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv": "b4e4a79a1dd28c81c633ce65f1504847cc1eae1a26432244d326567bdf8290cb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.allocations.csv": "99ec9bb24ba9b94f3bd1a28978dc7af70d41bd2ab1849f4d9abd2dc030df0cef",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.nodes.csv": "5dca98b6c842335b8d597fce72904fb3e7921ec7c7116d1796f386de205b104d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.failures.csv": "78dfcfe9d1928378a777a643cd523802041a012aab65a143c203dc456c8a4925"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 174.14718079566956,
+      "runs": 750,
+      "strict_failures": 5,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.2.csv": "51c7d91c5e842e10d3d5ae19363c71a79d55d98102528486045d6901c5b64400",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.2.csv.allocations.csv": "99f9ea07af20131dd9816e4dbf24fd5fca35084358cd9b32e41a05fb7424c4be",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.2.csv.nodes.csv": "16fcda9c858af3be5d821bedb1df2eedf13b18c783cb1e9c67af7c35bd96f9d9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.2.csv.failures.csv": "c05dcdbafa7fde64a81f0938ad4c60362c1e8839476fe76084349641ea88d540"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 170.33492708206177,
+      "runs": 750,
+      "strict_failures": 11,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_2.csv": "0562a6b87aee957e8019e93f57951f6d298672699458f2947d5e46b5a94cb5ff",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_2.csv.allocations.csv": "074b7c46bf3ed2e721f3cebc200383e61552d6f6b630011ed0f13d6c326ef6d5",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_2.csv.nodes.csv": "1f71a2050590a2b625a1cdc2283c3e2299656c2e3e4af324947d699aaf68455e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_2.csv.failures.csv": "69f14a20d5a94d592d9f82b1116d6d964f2717f40f97065230e8dd035807d7ba"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.05",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 172.80425310134888,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.05.csv": "14cfdfe5814824802fa5a1211db54de0fba04b2f24a0ee26aa07be253c5872d0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.05.csv.allocations.csv": "002f0dab3ac9f1773917237d05a5586cf4e89487e6e506c11ce9fd31f99d8d0c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.05.csv.nodes.csv": "0f612b9a26a3cf46fe417ec54270f84f9abb5bb0caeefe8c60f4f73ca4fbd3b2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.05.csv.failures.csv": "4fd80420d792ff19b00155ae63f0ab112739228ccbd4f5338ca0b5e335db9389"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.05",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 173.31838703155518,
+      "runs": 750,
+      "strict_failures": 3,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.05.csv": "2abeddf5f40f4124281bf6a66a0d7f8e8160452c0be1c66e6a2c78cd7e42bfb6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.05.csv.allocations.csv": "4ef3f27fdb18f973dab35bf7b551d89d159411ad594978d2b7fe8f8802f9f957",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.05.csv.nodes.csv": "a33660136ac6d90835cb938a5d9015fad0cb135053199f5a9ec85760ba29266d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.05.csv.failures.csv": "063112f99717c789a9d4e09c3895d70a5572ada1f777fb35adbb362981961eff"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.001",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 53.24605131149292,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.001.csv": "1fada05620e923557c4de1b6efc0e6e2867304abb5489d62f04e1c5680ce0b9b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.001.csv.allocations.csv": "05ba641b584a6e97aa9372b9438d35788c9a8717f8e6db1db624829612e7b4a9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.001.csv.nodes.csv": "8d5a82920c19b95247e23ce0317991aba38e68e9c20fa2a3d41bc471ebeea009",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.001.csv.failures.csv": "1f0fb28fc185f830b54d126fd1be7b169c976cdeb2ef0603000c3c80e2dbe98d"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 41.53766322135925,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_4.csv": "0665bbb340164be2c994774ec22528e3797ff44cc7d3fe42f13057080fedbf3c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_4.csv.allocations.csv": "36f6a64715393e7f69bd73aff1ae08720f99e4da72319ab158d00cea6d292861",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_4.csv.nodes.csv": "ddad6df99e39c47406b9f2b172963a4aaffddad8b9db71d95a5ee3be04b1da20",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_4.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_64",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 48.45877194404602,
+      "runs": 750,
+      "strict_failures": 12,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv": "264b396198ab1b133447b07c634ef3cdb471206871de610f9be93b942acc8923",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.allocations.csv": "78c9c0cbe8623cb4327e10357027f38f39c06e26fae1d7ae7b9363e1aefffcb6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.nodes.csv": "4152fd924c301050aadeb316396827563bd425cbf4d8ade1bb193535f51ba198",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.failures.csv": "378afe257244c37bc19fcb6a0e1fe63b9a103a68422d142b2a97ce4d3824fbfe"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 172.8570785522461,
+      "runs": 750,
+      "strict_failures": 10,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.8.csv": "6bb5f163b01fb892e590edb8e7711ef2ef0542906e491963d854dd127d2def6d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.8.csv.allocations.csv": "e9e8e715dfeab6abe777b2719beec335a1b6394b35073cb708bc738f88a21286",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.8.csv.nodes.csv": "0d2ac41e9e253205228b50adae7ce89583fa9235df9cb3b48648d347742e9e98",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.8.csv.failures.csv": "20b20b373d0405b44722ea724144ad559a2e366b9e7e7954083dda55860bd9aa"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 53.509562969207764,
+      "runs": 750,
+      "strict_failures": 10,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.1.csv": "05e9012e02998bb0a9da6168e95405bfaeadc7be7745809a047ba602292003b6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.1.csv.allocations.csv": "d5470cd6538151e4ac962e23bc687be79c1718c7271db438afc646eb368eb68d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.1.csv.nodes.csv": "f9de34e92e8327315f48a322a261f8afe935188722ee35a9ca86b8c3ee8d5992",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.1.csv.failures.csv": "9bd2c4772eacca90629c2014d91cab0d90839dd1ac0dabf663a8b8e8778ba2a0"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_k_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 163.7431206703186,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_4.csv": "f766523e24b2704223ec686c5ab42ede2f968714357a31814e7cd736295aca83",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_4.csv.allocations.csv": "f0e2ddb161061b00066ce0197656fa525e72c04413f810093270f54ed9f80e2c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_4.csv.nodes.csv": "68df021d2ffa85c993244cab3bf17be12e9d7726ae4535d54c87185a686672ee",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_k_4.csv.failures.csv": "bca6076329b6af3d1f02ec6da49407c8a87c9f2700e3ddc15a30d29318acba51"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_epsilon_0.01",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 175.78620767593384,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.01.csv": "765b14cec24dfb428c2279f91c4e56a57f6e0bb1de4d926db89ac37481e30469",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.01.csv.allocations.csv": "c6171ee2f8320f456aed85a3e7e208f39e1192c6902659dc48ee740ad2e412eb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.01.csv.nodes.csv": "3a30f548962ead82c53dc7c316f7bf3d6134f4207a355d7d6f655c37b4b6316f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_epsilon_0.01.csv.failures.csv": "3fb96bb603461707fd62cf6258126be6b94d6df024887cd32e815ca1fd32f2b0"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_256",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 182.67418956756592,
+      "runs": 750,
+      "strict_failures": 9,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_256.csv": "84bb7fa466707bf9cafc210b3b5928ccbd39ed16eb34695fbd2fb1e71f27b107",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_256.csv.allocations.csv": "5664580c644a025576ec5184a1e95492de9644572312dd5a20aaa88e3b56bac0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_256.csv.nodes.csv": "8cef64f9207ecc3e09b0335c7f963c14b892c29281b1c5cb8d6a8370d6d0d1e4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_256.csv.failures.csv": "cc550fec0ea1af6d791406990eeb4124948e893335f6619add6de1d482cc0ec7"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.05",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 53.52095317840576,
+      "runs": 750,
+      "strict_failures": 2,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.05.csv": "c5d15ad60974c2de50748194fbc0d62ec596c06d84490bcb9ddee0ef2bd0d138",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.05.csv.allocations.csv": "2f7f0af34cb46c96c6c4e2a8fdc5c8a50f08c551ed1cd43c928e23d7a8d6a1d0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.05.csv.nodes.csv": "45079b0d0013a57a46465bc87ff19abe305db7d3f5e03377e0a59acd29040791",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.05.csv.failures.csv": "019454c7166831adc6a2b9b022d837d8e9350e8a6fd36e8bf45833429c2dde57"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_ablation_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 268.91852831840515,
+      "runs": 1350,
+      "strict_failures": 12,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_ablation_1.csv": "e8c423665f77d41b4ee157d0b655fd3bb367da90fc284beff26529f050052b8c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_ablation_1.csv.allocations.csv": "e0eb2d526d111dd87375e0d9b13fd204a3737a0c90ecefbe8249d891be60ca6c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_ablation_1.csv.nodes.csv": "cbf6a0fb7e20e4bfb546968273d490d85d93baeb079805dba20c4e8d4fbb683b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_ablation_1.csv.failures.csv": "d6ab60986b119a0e65c573c1a5939ef2f7aa0fb3eb1b6a94fd5e391d07cc5810"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 52.980159521102905,
+      "runs": 750,
+      "strict_failures": 21,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_2.csv": "bccedcb3da6c922b55fd0b1c80808df4f216de67cf93043d43c6fc834723b040",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_2.csv.allocations.csv": "507a970c2642c4230e494786367bff9665eb4df4b411dd4400769837ab2579d8",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_2.csv.nodes.csv": "9c775e25e1db55e41ace19847b38236d54a03125d748f21f4f0f57f3dddabdb4",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_2.csv.failures.csv": "e8ce453bcc42d4cab49fd3e376e0c656900e63a247cfedb8023121f2b6008d56"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_m_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 48.55399036407471,
+      "runs": 750,
+      "strict_failures": 33,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_4.csv": "68c265fc86d103d424fde6bd49523382f9bc4a968e2d1b6b9db458f5ae0b2f79",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_4.csv.allocations.csv": "2f3366aae2b31a1e84ef40ff4dfb0d0d6d1b288d417b97f0d7bad14227a9f4ff",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_4.csv.nodes.csv": "9ec05c6cc8fd3df0a11e969f0983b09670a06e46f8db05c6c54f4bb82ac1f29f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_m_4.csv.failures.csv": "e247ad423920c6d7c827e9606df6569073e524073b76343024ace882940ed80c"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 59.123979330062866,
+      "runs": 750,
+      "strict_failures": 25,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv": "bc8390ee2819cb66f05c4f2d1588f4db89d06635ca0162f8e2e594f53481785b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.allocations.csv": "1dcfbbd0cbcf0eea2cc2505e5954c7a06ff2143f1d9c0e52db3e5c9474ad28c9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.nodes.csv": "3182e6b03b09cedf780841fb92a9026aaee7d295ca232f19846741400cb84e70",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.8.csv.failures.csv": "0521a0e1c3eba82d57c91d449be359676afec94954d999ed6be75e57fabf2199"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 58.37590432167053,
+      "runs": 750,
+      "strict_failures": 8,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.2.csv": "7da3ea9b452607b594dac110843717c3f7a262fef74883865092647a094094b9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.2.csv.allocations.csv": "f8713f9e2fee86ae4535c4a8d9dd15600585add5c81464df15c288cb8e796613",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.2.csv.nodes.csv": "c31e0da683b92934612a11f931510418b824c267e00cc5e0394fd7e65065b1d0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.2.csv.failures.csv": "85912f0f1a6484161d97e3e4eee74e052b37a792e829e61bfe23cf245b96e82d"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 56.811301469802856,
+      "runs": 750,
+      "strict_failures": 40,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_2.csv": "1d491f6175767fdd4385c8be41a09b7a5073a0912471a202f75f0a768d39ecbc",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_2.csv.allocations.csv": "c896cf971a867c6246e3c8238e27c19ecb8b3dcf056c11006b9652fe8dc05b89",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_2.csv.nodes.csv": "7b6bb8d7806220c10a1a8a2057f0f83bf73486058ac1d25ac43514d5cbebde47",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_2.csv.failures.csv": "32313eba51336b7f5ed86ef0a978f7c436eebc932398a755ecb2a1dcb8cea0d4"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_default_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 176.34376430511475,
+      "runs": 750,
+      "strict_failures": 14,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_default_1.csv": "1f6c5ca5ebdb47ca2db0ec78a88680d5db3c2ecf3d1d8d995ba2a87d65084078",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_default_1.csv.allocations.csv": "2d22da4df3cd7c8da023912f5964f6b296f93d11202d86ac155ce955ece25243",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_default_1.csv.nodes.csv": "3675ee2976a650fdedb75be5518865339afdae9c31d10ae02dc56c92a445d24b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_default_1.csv.failures.csv": "dc8e1e6205f7515cbcc7b7caba00830202b694bf683f5ce922cd06ee4c3c1022"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 173.15340304374695,
+      "runs": 750,
+      "strict_failures": 6,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.1.csv": "4a9fccee2b8e28dd93b177a1d9dab12a69a69e046cc7e22488a89d35dbf79277",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.1.csv.allocations.csv": "9538f1b37650f657e2cc63bdbd38902ec8d412ae57a8c2e43d2d302f9830076c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.1.csv.nodes.csv": "3cbf3c39468e4dde4feed8fb3b9f68aea8d94f78c0be1b89c702b7af742f76ec",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.1.csv.failures.csv": "ccc1b04a74684ccf6172eeeda401ca994e9ebaa33a3f158178a101b7c5f29fe6"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.6",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 54.793245792388916,
+      "runs": 750,
+      "strict_failures": 24,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.6.csv": "c4c1fdb7f6cfc616a62b6f30a9bd4d4d59986cff0f982e43d6aa560ff491fa38",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.6.csv.allocations.csv": "36f070adca4d8a3d9177205b89881a1807baf9adc8ef1d68b48bf0e6a648010e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.6.csv.nodes.csv": "b4f74e44048ecc31461ec844c55d448ea0429920b1030ba9fcb4cccf4f7d60a0",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.6.csv.failures.csv": "340a7fe04fb3e7ec260bceca1e22852a68eabba4d93293e289cfc07e212c3ace"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.01",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 172.1927330493927,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.01.csv": "241711848a3cf12ef9121810203a79d9007e99c348b8e081fc09f5ea231f5ca1",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.01.csv.allocations.csv": "2c9faa73e1f4d4ad11f7737e86a23c7587fd80f52bfe06090900ccaa45e2e541",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.01.csv.nodes.csv": "f318ea474576690d40bc2e2595944d543d16c8ebbac2cee8790dc672a19c5547",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.01.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_epsilon_0.6",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 52.10431170463562,
+      "runs": 750,
+      "strict_failures": 21,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.6.csv": "d09965392f339b948ea6c521eb2feb3ab9864784bd9893ade4ea1ead984944c9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.6.csv.allocations.csv": "dc2009501c6560337f5408544ee5bc7d192028f02233548665f79e26245ec88e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.6.csv.nodes.csv": "71e84c2e39f09aa5a1f8076ba28e9799b1a9f4490d6d11bcba2b851c6a2d34f3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_epsilon_0.6.csv.failures.csv": "eb09651dd1f87d3630e637285a584bcf5101f4c7a2f1427dd42341a27e3a1035"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 170.0425922870636,
+      "runs": 750,
+      "strict_failures": 5,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_2.csv": "aefed56d49e4c217a04ad04adbf22f9fee175a264339d6a9f699d059fa477f41",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_2.csv.allocations.csv": "6f0748f43d6378bbd9d9489071aa7746d2015f078a03af8c761fa25d46fc7ece",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_2.csv.nodes.csv": "d21e29b955f32b2befbd58d16e2055306d2591538c442fa73af3537066dd4c9d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_2.csv.failures.csv": "410eb8d7aa5d0ad2be9aff149bbb030be12b6c5222f92397a45fbc2380732822"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 171.6249759197235,
+      "runs": 750,
+      "strict_failures": 10,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.8.csv": "21ca3a827a8876dd168ed518e88e6ec7f79e2697e1feefeb20cbaaf1c0d706aa",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.8.csv.allocations.csv": "d094ebd6a2fc9a015627850a2de41f47507bb455b4a80abc36c4fd45a252505a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.8.csv.nodes.csv": "d2989c5d9da73e77424baa5d30b8b9370c3059199ca0ae87e1639c7fa191187e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.8.csv.failures.csv": "e44ec0854ef91e9c2a540d05e1c98e84c20b6d0a7c942a8ff15614895279797e"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.2",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 174.95969438552856,
+      "runs": 750,
+      "strict_failures": 3,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.2.csv": "53dccf920bfeacea04a7925661727ff19b6cbf92c0ce52d396397ffba7b086a9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.2.csv.allocations.csv": "6e8aaa7581858a141882c9e903f7d7fd40ecfb8fe4caa6803f1871786a08408e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.2.csv.nodes.csv": "dd919d73b3946e7404f62acb3a22018dcc6ae10f15b84bf03839678e5010f55d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.2.csv.failures.csv": "5f55f96665dba8caa85ba1cbf351ceaa0b565ae26b8859d19969ed0d6281ef2d"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.6",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 174.64978909492493,
+      "runs": 750,
+      "strict_failures": 11,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.6.csv": "5ddc6cf1d4b8509784e5f64f6fbefc8b763cc2b8c0f1f9f4d856cad9b04c8a0e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.6.csv.allocations.csv": "fc7f7fe24a3d4448befe6aaf977db9df0c18d9136de81302636958ab1aeac36a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.6.csv.nodes.csv": "47755b08d8ab54c19caf242a34b4ccd166c9aced3c105440c143f77712ff123f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.6.csv.failures.csv": "a6eda115b05857d30c3b51b28bba37893742536f8ee5f3813e87147f22fc001b"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_m_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 170.42471408843994,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_4.csv": "b385ed4c9dc53dd0dfdd34ee0e27dc6788a5e052419c8cc9088d8550abbad5f3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_4.csv.allocations.csv": "461df3b9229431632caf18f5ab6c0ed71d815dc9961ac927eb3543200074fd26",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_4.csv.nodes.csv": "368017d95da35285f91a9a242de35c8f3b6816f5337230f8df3023124662ef38",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_4.csv.failures.csv": "b7fb6c90fa3244c76e629ff52956adb9a65140cb2f0bf2d5eb99230a54f6ac95"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_256",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 179.15708875656128,
+      "runs": 750,
+      "strict_failures": 53,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_256.csv": "52013d2c85624366aed99256820521ffe8b9c181e1b08630be70114b1c3fc168",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_256.csv.allocations.csv": "c42fe9b3dadad9b2ce7575654d026422b635cb454074368055292ab193bd9e25",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_256.csv.nodes.csv": "4b2acf7f901ea1e8e9f5843406366b6c32b7fc99ab7ce48c6eb14751f43a3a9b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_256.csv.failures.csv": "746e19cb37d366c01dc79f554506a1f335edd5826b99563e73b275b454ff216f"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_m_12",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 169.16795587539673,
+      "runs": 750,
+      "strict_failures": 19,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_12.csv": "b3006b1b21c77546c124dea98ba910ae9bd318783041e2e227086be4bd05d345",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_12.csv.allocations.csv": "f71d4a1f2ddc4580f27a398d00805310cd52a623af8d8e0bd5b907fe8908cc0d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_12.csv.nodes.csv": "fe55d82981c01b8091cad7fc4feaad9b1bf7bd6f6c87e2a40e216d504c2e72a7",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_m_12.csv.failures.csv": "174ff333febe70c28db6e2ec36d28556e1de8339d80d547cf084f5c09aa9e3c4"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 56.50727725028992,
+      "runs": 750,
+      "strict_failures": 21,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.4.csv": "e38549f0de97fbcb5ab585ea9743ba4a6f153e89c4860ab125fbfce60a1c48da",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.4.csv.allocations.csv": "b0f1fb8ef07f0cb0b3b9802a0ed4763ff6dc573d866a63d5d941e712943831f2",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.4.csv.nodes.csv": "b21a33f11534ac73b10cb7f6ef395ed60306b259f5edff2aa48e50051acecc8c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.4.csv.failures.csv": "54f87e9ed36684d09dc352afb709cc355785bd057f7f82ee55f6bbe22293736c"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_32",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 46.28724908828735,
+      "runs": 750,
+      "strict_failures": 6,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_32.csv": "e378185c04455d226ed5a8e8faa198b2839ad771aa3c837b23f0564ecbe8a44d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_32.csv.allocations.csv": "556a1012b41dbd2e3e917af7c35521ae2bef88b6efcd20d7bb4cfbaff4cd3972",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_32.csv.nodes.csv": "34b0f4857232dc09c6aa0c1b71276706893b48a3027dc2f94bc0fefd752f08b3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_32.csv.failures.csv": "e304e343f5bd419fb8d85184048f3a6abfe30abc2d1099fca4fce95a2f398329"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_IID_k_8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 45.42393350601196,
+      "runs": 750,
+      "strict_failures": 2,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_8.csv": "be6d94dd3882f8b86e9223ab8a39db4ae450875e687c235bd96666594b45c148",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_8.csv.allocations.csv": "426de260c86bf3b7a80e3f5200e58fc904d68b6cc37bb0c82065c00ceb29c791",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_8.csv.nodes.csv": "788606c0403bd8ae46103f9ed0e94c76e295c198cfafda98a67f834ee9b56a8d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_8.csv.failures.csv": "2790d448c8d9b7db03c307b428473bba3eba7908c2432d4fada06752a9166295"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_default_1",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 55.34191536903381,
+      "runs": 750,
+      "strict_failures": 29,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_default_1.csv": "84ae956e5f2300ededf0e94a4c5365b46a973949b0320973bebbced15e235b52",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_default_1.csv.allocations.csv": "4be76a686022b7282f60f1c372b827393325c86c073c2a6b7d5dd5b6a8c366c6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_default_1.csv.nodes.csv": "1e72634308a3570532d63e79562f1b4016579f9a3f8f2a1155308e4157fe4765",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_default_1.csv.failures.csv": "28da17dd86c42bbf314aa59fb0a65702695834303fc6dd0cb18009d437a509ad"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_k_8",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 41.62068843841553,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_8.csv": "151fcebeb8fa35ee9c5d0001d6d0efd0b9bd433ae4c60f8a89b238b7f0184d38",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_8.csv.allocations.csv": "b1ab11dc061cb8ca18097dc0ee090023b688055d26b82f40cbdc3379e27d37cd",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_8.csv.nodes.csv": "fb9fd6192a3acd77d182837849783ee515bfdc0cc9d2b777d873ce1f33617a8d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_8.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_4",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 3,
+      "cached": false,
+      "wall_seconds": 164.15928173065186,
+      "runs": 750,
+      "strict_failures": 1,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_4.csv": "f92d86da053303ea2ec735d215010e26c729d56a4d32bc0cca93a89c4f15776a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_4.csv.allocations.csv": "b7f668fbee77c8015e1d0198daf45881c878903ffd5d85232a7a7c2824587006",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_4.csv.nodes.csv": "316b89fb54571b97245896c835e0dd705d03aa14deb07754b07432c73afe688d",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_4.csv.failures.csv": "93eca324be8ab9978a39142c826813dc54b55ea6cf3eafb566f975e0faf91ab7"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_epsilon_0.001",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 0,
+      "cached": false,
+      "wall_seconds": 56.64130997657776,
+      "runs": 750,
+      "strict_failures": 9,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.001.csv": "c6f35edfa310f1a96b5154f11c1ba4e6c17c9bdbeced4bb130600a48b9e37a1a",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.001.csv.allocations.csv": "3ce8484a963f82de33441c12e0f1d6804ccf04b69a1e1895879c8a427b142182",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.001.csv.nodes.csv": "c55a3457138ac00662607658127071c4eadbfdf70b637551c9cbd67d89d241ce",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.001.csv.failures.csv": "085e870f3a1b4e900e6942bcf4142494ee81548b3c49bb4c048a1bb9dce75b5a"
+      }
+    },
+    {
+      "id": "dna_cluster_order_IID_m_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 1,
+      "cached": false,
+      "wall_seconds": 120.1714825630188,
+      "runs": 750,
+      "strict_failures": 29,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_16.csv": "2cb32b6c5db5b4048d800e6d0d50046da61650f4f584e4ecac3fa4b11fd2f7cb",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_16.csv.allocations.csv": "f4308b03163b159811ea63cec4b3a07be1338dacca231a9bf845622d84da3241",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_16.csv.nodes.csv": "316322835aa1a9a8daafb6249e588c3a5e8e96e3f56fa50f868a21f134f1aaff",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_m_16.csv.failures.csv": "1e21912dec62f290ab2dcd89fac43eb29d28958b2b72998671d8eb6bdcae3244"
+      },
+      "integrity_recovery": "integrity_rerun/recovery.json"
+    },
+    {
+      "id": "dna_cluster_order_NonIID_k_16",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 2,
+      "cached": false,
+      "wall_seconds": 150.68354964256287,
+      "runs": 750,
+      "strict_failures": 3,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_16.csv": "ed076d91db5d09d0b71585806fc1560deeaf0c85d36a5a5fb6ef5e7fff9bd15c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_16.csv.allocations.csv": "841010341c97f1ec9a25f97726cceaa7d2f52a0aab30d5fe65ff52fecd8e2c33",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_16.csv.nodes.csv": "e743e93272ff2514d70e495a622ea610ddee252fd43fdce8f558ddc639e398a6",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_k_16.csv.failures.csv": "1c2ea04a27714a99e5b395e821600155f15fc3d8f22d8970799037a54f2e4bf8"
+      }
+    },
+    {
+      "id": "symbol_cluster_order_NonIID_epsilon_0.001",
+      "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+      "cpu_core": 4,
+      "cached": false,
+      "wall_seconds": 149.45719814300537,
+      "runs": 750,
+      "strict_failures": 0,
+      "nonnoisy_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.001.csv": "2d95d5d8a5ee63f0752b88876524a33aa5a23231d27142f0966698bedefde69c",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.001.csv.allocations.csv": "1c01d8ed0f1a7f11ee00b89bb783dcf0b6a0e7268178277a2ea48879bb194eb7",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.001.csv.nodes.csv": "da92545be3295669c0e070fd9724ddf4e96fd1a8f11d0f07563dd8ed9aa8767f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_NonIID_epsilon_0.001.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    }
+  ],
+  "failed": [],
+  "start_unix": 1791948903.3930726,
+  "finished_unix": 1791950798.3317463,
+  "complete": true
+}

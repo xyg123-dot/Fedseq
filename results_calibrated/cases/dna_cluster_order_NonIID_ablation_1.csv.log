@@ -1,0 +1,12 @@
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=8000 queries=50 repeats=3 build_ms=47.7964 build_cpu_ms=36.6592
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+dann 184.284 182.28 1 0 8000
+dann_order 142.865 141.308 1 0 6308.9
+dann_order_star 152.537 150.8 0.998698 4 6430.81
+dann_star 183.222 181.417 0.990729 8 8000
+fedseq 10.7885 10.602 1 0 308.9
+fedseq_legacy 48.342 47.6428 1 0 2000
+fedseq_star 153.128 151.298 0.994583 6 6411.39
+fedseq_star_laplace 153.074 151.699 0.993854 7 6430.65
+fedseq_star_laplace_zero 150.635 148.894 0.999427 2 6426.74
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_NonIID_ablation_1.csv

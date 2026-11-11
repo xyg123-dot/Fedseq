@@ -1,0 +1,16 @@
+{
+  "id": "Symbol_swap_seed20261024_rho000",
+  "fingerprint": "1acc33adf4190bf07a41fedbc70249009e35db8b69e4672a414e4d2901fb524c",
+  "cpu_core": 8,
+  "runs": 600,
+  "cached": false,
+  "wall_seconds": 31.575101613998413,
+  "strict_failures": 0,
+  "distance_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_swap_seed20261024_rho000.csv": "810448d4aba60fa8630f4432630a6eb5204fb4b16a8a66602b1c8e82590686e3",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_swap_seed20261024_rho000.csv.allocations.csv": "06cf356117dcca09d5466fb914777d6bcac8d579816f61bb8f8d984a9300c2dc",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_swap_seed20261024_rho000.csv.nodes.csv": "b13216b2ffd5a00133e62c7fc5c66c32461dcdcaafabf1788f0885f5e6498507",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_swap_seed20261024_rho000.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+  }
+}

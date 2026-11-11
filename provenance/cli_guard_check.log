@@ -1,0 +1,9 @@
+calibrated quota privacy requires exact local prefixes: use scan or minsearch-certified
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=32 queries=2 repeats=2 build_ms=0.044027 build_cpu_ms=0.042252
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+baseline 0.0227993 0.0226213 1 0 32
+dann 0.02653 0.0263113 1 0 29
+dann_star 0.04799 0.0478115 1 0 32
+fedseq 0.020809 0.0206258 1 0 13.5
+fedseq_star 0.04152 0.0413442 1 0 31
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/tmp/fedseq_cli_smoke.csv

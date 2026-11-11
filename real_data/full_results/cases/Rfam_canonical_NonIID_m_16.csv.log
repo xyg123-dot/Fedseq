@@ -1,0 +1,8 @@
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=12391 queries=50 repeats=3 build_ms=149.188 build_cpu_ms=149.187
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+baseline 793.727 789.8 1 0 12036.1
+dann 707.025 702.379 1 0 11620.6
+dann_star 915.108 890.763 0.997448 13 11969.4
+fedseq 122.378 121.187 1 0 1544.8
+fedseq_star 440.118 429.578 0.999427 3 6241.47
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/full_results/cases/Rfam_canonical_NonIID_m_16.csv

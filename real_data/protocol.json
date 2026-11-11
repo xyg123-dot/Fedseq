@@ -1,0 +1,76 @@
+{
+  "frozen_before_pilot": true,
+  "date": "2026-10-15",
+  "candidates": [
+    "UCI Splice",
+    "Pfam seed protein domains",
+    "Rfam seed RNA"
+  ],
+  "selection_policy": "Report all attempted candidates; choose a domain-relevant workload with stable held-out-query improvement for expanded evaluation; no universal real-data claim.",
+  "pilot": {
+    "queries": 12,
+    "repeats": 2,
+    "k": 128,
+    "m": 8,
+    "algorithms": [
+      "baseline",
+      "dann",
+      "dann_gram2",
+      "fedseq"
+    ]
+  },
+  "full": {
+    "queries": 50,
+    "repeats": 3,
+    "k": [
+      4,
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "m": [
+      4,
+      8,
+      12,
+      16
+    ],
+    "epsilon": [
+      2,
+      1,
+      0.8,
+      0.6,
+      0.4,
+      0.2,
+      0.1,
+      0.05,
+      0.01,
+      0.001
+    ],
+    "privacy_sweep_clean_references": "Three clean methods have no epsilon input in algorithm decisions; reuse their full-size default measurements as horizontal references. Only noisy methods rerun at non-default epsilon; five curves still plotted.",
+    "extra_control": "DANN+Bigram measured at default on 50 confirmatory queries.",
+    "algorithm_runs": 23400
+  },
+  "split": "Deterministic seed 20261015; exact sequence deduplication before 12 exploratory plus 50 distinct confirmatory queries; confirmatory queries excluded from pilot.",
+  "sequence_policy": "No mutations, duplicated expansion or performance-based sequence selection; remove alignment gaps; retain actual ungapped sequences of length <=128; preserve source IDs.",
+  "partition": "IID balanced shuffled round robin; NonIID group by provided family/class labels, not by measured nearest-neighbor results; simulated provider ownership explicitly disclosed.",
+  "second_stage_before_measurement": {
+    "reason": "Initial domain cap 2000 and curated RNA seeds show limited gains; test population density using full biological sequence matches without edits.",
+    "additional_candidates": [
+      "Pfam_dense: cap10000 per available family",
+      "Rfam_full: cap10000 per RF00001,RF00005,RF00006"
+    ],
+    "no_more_search_after": "two additional candidates",
+    "query_policy": "fixed hash cap then fixed shuffle, 12 pilot and disjoint50 confirmatory; no distance-based selection",
+    "selection_metric": "Among fixed pilot candidates, maximize the smaller of IID and NonIID DANN/FedSeq mean CPU ratios; expand only if both exceed 1.5. Confirmatory results may be weaker and will be reported unchanged."
+  },
+  "canonicalization_amendment": {
+    "reason": "Source FASTA mixes T and U in 85 selected records. Normalize U to T before sequence deduplication so equivalent nucleotide representations do not create artificial distances.",
+    "made_before_confirmatory_analysis": true,
+    "new_dataset_path": "Rfam_canonical",
+    "candidate_selection_unchanged": "Rfam full selected using original pilot; canonicalization is data-quality correction, not a new performance search.",
+    "confirmatory_overlap_with_any_RNA_pilot_queries": 0
+  }
+}

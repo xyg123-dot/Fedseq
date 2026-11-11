@@ -1,0 +1,18 @@
+\begin{algorithm}[t]
+\caption{Reusable local prefix search}
+\label{alg:local}
+\small
+\begin{tabular}{r p{.87\columnwidth}}
+ & \textbf{Input:} query $q$, target $t$, sorted lower-bound list $L_i$, persistent query cache $C_i$.\\
+ & \textbf{Output:} exact local prefix $H$.\\
+1 & $t\gets\min(t,|D_i|)$; $H\gets\varnothing$.\\
+2 & \textbf{if} $t=0$: \textbf{return} $H$.\\
+3 & \textbf{for each} record $x$ in ascending $L_i$ order:\\
+4 & \quad \textbf{if} $|H|=t$ and $L(x)\succeq\max K(H)$:\\
+5 & \qquad \textbf{break} (all remaining keys are prunable).\\
+6 & \quad \textbf{if} $x\notin C_i$: $C_i[x]\gets\ED(x,q)$.\\
+7 & \quad Insert $(C_i[x],i,\operatorname{id}(x))$ into $H$.\\
+8 & \quad \textbf{if} $|H|>t$: remove the largest key.\\
+9 & \textbf{return} $H$ in exact-key order.\\
+\end{tabular}
+\end{algorithm}

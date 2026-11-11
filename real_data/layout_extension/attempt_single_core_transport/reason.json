@@ -1,0 +1,15 @@
+{
+  "excluded_from_statistics": true,
+  "reason": "Transport inherited a single-CPU affinity from the native-case runner. This differs from the original unrestricted concurrent-provider transport profile. Both Rfam transport cases are rerun after native completion with unrestricted affinity; no performance-based exclusion.",
+  "stopped_processes": [
+    22880,
+    22881,
+    22882,
+    22883,
+    22884,
+    22885,
+    22886,
+    22887,
+    22888
+  ]
+}

@@ -1,0 +1,7 @@
+make: Entering directory '/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark'
+./fedknn_benchmark --self-test
+STAR_TEST experimental_accuracy_failures=0/480
+PASS checks=100129 random_federations=300 DANN_star_accuracy_failures=2/600
+./test_privacy
+PASS sensitivity_checks=118592 exhaustive_datasets=256 histories_per_dataset=9 random_neighbors=2000 max_delta1=2 max_delta2_dann=7 max_delta2_fedseq=5
+make: Leaving directory '/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark'

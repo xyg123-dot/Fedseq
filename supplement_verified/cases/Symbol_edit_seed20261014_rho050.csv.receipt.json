@@ -1,0 +1,33 @@
+{
+  "id": "Symbol_edit_seed20261014_rho050",
+  "fingerprint": "1acc33adf4190bf07a41fedbc70249009e35db8b69e4672a414e4d2901fb524c",
+  "cpu_core": 7,
+  "runs": 900,
+  "cached": false,
+  "wall_seconds": 136.04815196990967,
+  "strict_failures": 9,
+  "distance_failures": 4,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261014_rho050.csv": "93d213aeb209739d0734c2aba14784ef8a597570b7f318eb2f1bd9ed10daf24d",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261014_rho050.csv.allocations.csv": "b42da4c8afbc76cf256f6cbdf03a2058932aff2adc44b4d5b2fa08b6db5309c3",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261014_rho050.csv.nodes.csv": "7a33e1b6c757d8572210be3622e380bf1b5593d4bf1dce74cf2046dbe2ccfb27",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261014_rho050.csv.failures.csv": "a07d562eedd836243de085e2939273633366f0c101c0917b2df65972faf89b86"
+  },
+  "source_receipt": {
+    "id": "Symbol_edit_seed20261014_rho050",
+    "fingerprint": "6a8aa02abd547ac5cb14a0cac5764ed7ef4f70e445362ce62f97b3ca3919c59f",
+    "cpu_core": 7,
+    "runs": 900,
+    "cached": false,
+    "wall_seconds": 136.04815196990967,
+    "strict_failures": 9,
+    "distance_failures": 4,
+    "output_sha256": {
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/Symbol_edit_seed20261014_rho050.csv": "93d213aeb209739d0734c2aba14784ef8a597570b7f318eb2f1bd9ed10daf24d",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/Symbol_edit_seed20261014_rho050.csv.allocations.csv": "b42da4c8afbc76cf256f6cbdf03a2058932aff2adc44b4d5b2fa08b6db5309c3",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/Symbol_edit_seed20261014_rho050.csv.nodes.csv": "7a33e1b6c757d8572210be3622e380bf1b5593d4bf1dce74cf2046dbe2ccfb27",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/Symbol_edit_seed20261014_rho050.csv.failures.csv": "a07d562eedd836243de085e2939273633366f0c101c0917b2df65972faf89b86"
+    }
+  },
+  "import_reason": "Completed before the conflicting restart; identical benchmark sources, populations and partition bytes."
+}

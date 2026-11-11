@@ -1,0 +1,17 @@
+{
+  "generator": "uniform random centers, continuous 4..32 edit operations",
+  "seed": 20261014,
+  "n": 8000,
+  "query_generation": "4..8 distinct substitutions; held out",
+  "edit_probabilities": {
+    "insertion": 0.2,
+    "deletion": 0.2,
+    "substitution": 0.6
+  },
+  "length_range": [
+    117,
+    141
+  ],
+  "query_length": 128,
+  "fixed_histograms": false
+}

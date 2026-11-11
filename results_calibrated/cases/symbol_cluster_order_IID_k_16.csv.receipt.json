@@ -1,0 +1,16 @@
+{
+  "id": "symbol_cluster_order_IID_k_16",
+  "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+  "cpu_core": 4,
+  "cached": false,
+  "wall_seconds": 43.504968881607056,
+  "runs": 750,
+  "strict_failures": 2,
+  "nonnoisy_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv": "b4e4a79a1dd28c81c633ce65f1504847cc1eae1a26432244d326567bdf8290cb",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.allocations.csv": "99ec9bb24ba9b94f3bd1a28978dc7af70d41bd2ab1849f4d9abd2dc030df0cef",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.nodes.csv": "5dca98b6c842335b8d597fce72904fb3e7921ec7c7116d1796f386de205b104d",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/symbol_cluster_order_IID_k_16.csv.failures.csv": "78dfcfe9d1928378a777a643cd523802041a012aab65a143c203dc456c8a4925"
+  }
+}

@@ -1,0 +1,73 @@
+\begin{figure*}[t]
+\centering
+\resizebox{\textwidth}{!}{%
+\begin{tikzpicture}[x=1cm,y=1cm,font=\sffamily\small,>=Latex]
+\node[anchor=west,font=\bfseries] at (0,4.8) {(a) Local sequence evidence};
+\node[anchor=east,font=\footnotesize] at (14.7,4.8) {$q=\texttt{AABB}$, $k=2$};
+\foreach \base/\p/\co/\a in {0/1/FSteal/2,5.2/2/FSorange/0,10.4/3/FSviolet/0}{
+ \node[anchor=west,text=\co,font=\bfseries] at (\base+.05,4.2) {$P_{\p}$};
+ \node[anchor=east,font=\footnotesize] at (\base+4.25,4.2) {$a_{\p}=\a\ \longrightarrow\ t_{\p}=\a$};
+}
+% Sequence strands: colored characters are the data, not process boxes.
+\foreach \base/\y/\id/\seq in {0/3.55/1/AABB,0/2.92/2/AABA,0/2.29/3/ABAB,5.2/3.55/4/BBAA,5.2/2.92/5/BAAB,5.2/2.29/6/BBBB,10.4/3.55/7/CCCC,10.4/2.92/8/CCCA,10.4/2.29/9/BBCC}{
+ \node[anchor=west,font=\footnotesize] at (\base+.05,\y) {$x_{\id}$};
+ \draw[gray!35,line width=1.3pt] (\base+1,\y)--(\base+3.1,\y);
+}
+\fill[white] (1.00,3.55) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (1.00,3.55) {A};
+\fill[white] (1.70,3.55) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (1.70,3.55) {A};
+\fill[white] (2.40,3.55) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (2.40,3.55) {B};
+\fill[white] (3.10,3.55) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (3.10,3.55) {B};
+\fill[white] (1.00,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (1.00,2.92) {A};
+\fill[white] (1.70,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (1.70,2.92) {A};
+\fill[white] (2.40,2.92) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (2.40,2.92) {B};
+\fill[white] (3.10,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (3.10,2.92) {A};
+\fill[white] (1.00,2.29) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (1.00,2.29) {A};
+\fill[white] (1.70,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (1.70,2.29) {B};
+\fill[white] (2.40,2.29) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (2.40,2.29) {A};
+\fill[white] (3.10,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (3.10,2.29) {B};
+\fill[white] (6.20,3.55) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (6.20,3.55) {B};
+\fill[white] (6.90,3.55) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (6.90,3.55) {B};
+\fill[white] (7.60,3.55) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (7.60,3.55) {A};
+\fill[white] (8.30,3.55) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (8.30,3.55) {A};
+\fill[white] (6.20,2.92) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (6.20,2.92) {B};
+\fill[white] (6.90,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (6.90,2.92) {A};
+\fill[white] (7.60,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (7.60,2.92) {A};
+\fill[white] (8.30,2.92) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (8.30,2.92) {B};
+\fill[white] (6.20,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (6.20,2.29) {B};
+\fill[white] (6.90,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (6.90,2.29) {B};
+\fill[white] (7.60,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (7.60,2.29) {B};
+\fill[white] (8.30,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (8.30,2.29) {B};
+\fill[white] (11.40,3.55) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (11.40,3.55) {C};
+\fill[white] (12.10,3.55) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (12.10,3.55) {C};
+\fill[white] (12.80,3.55) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (12.80,3.55) {C};
+\fill[white] (13.50,3.55) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (13.50,3.55) {C};
+\fill[white] (11.40,2.92) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (11.40,2.92) {C};
+\fill[white] (12.10,2.92) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (12.10,2.92) {C};
+\fill[white] (12.80,2.92) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (12.80,2.92) {C};
+\fill[white] (13.50,2.92) circle (.18);\node[text=FSteal,font=\ttfamily\bfseries] at (13.50,2.92) {A};
+\fill[white] (11.40,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (11.40,2.29) {B};
+\fill[white] (12.10,2.29) circle (.18);\node[text=FSorange,font=\ttfamily\bfseries] at (12.10,2.29) {B};
+\fill[white] (12.80,2.29) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (12.80,2.29) {C};
+\fill[white] (13.50,2.29) circle (.18);\node[text=FSviolet,font=\ttfamily\bfseries] at (13.50,2.29) {C};
+
+\node[text=FSteal,font=\footnotesize] at (2.12,1.67) {two exact distances: $0,1$};
+\node[text=FSorange,font=\footnotesize] at (7.32,1.67) {bound frontier only};
+\node[text=FSviolet,font=\footnotesize] at (12.52,1.67) {bound frontier only};
+\draw[gray!25] (0,1.25)--(14.7,1.25);
+\node[anchor=west,font=\bfseries] at (0,.85) {(b) Broker certificate};
+\draw[->,gray!80] (3.2,-.1)--(14.5,-.1);
+\node[anchor=east,font=\scriptsize,text=gray] at (2.7,-.5) {increasing stable keys};
+\fill[FSteal!9] (3.7,-.27) rectangle (7.6,.07);
+\draw[->,FSteal,thick] (3.85,1.46) .. controls (3.85,.25) and (4.1,.15) .. (4.45,-.1);
+\draw[->,FSorange,thick] (7.32,1.46) .. controls (7.32,.65) and (9.6,.6) .. (10.15,-.1);
+\draw[->,FSviolet,thick] (12.52,1.46) .. controls (12.52,.65) and (13.3,.6) .. (13.5,-.1);
+\foreach \x/\lab/\co in {4.45/{K(x_1)}/FSteal,6.85/{K(x_2)}/FSteal,10.15/{F_2}/FSorange,13.5/{F_3}/FSviolet}{
+ \fill[\co] (\x,-.1) circle (.09);\node[below,font=\footnotesize] at (\x,-.3) {$\lab$};
+}
+\draw[FSteal,thick] (3.85,-.72)--(3.85,-.95)--(7.45,-.95)--(7.45,-.72);
+\node[below,font=\footnotesize,text=FSteal] at (5.65,-.95) {$R=\{x_1,x_2\}$};
+\node[align=center,font=\footnotesize] at (11.6,-1.05) {$K(x_2)\prec F_2\prec F_3$\\$B_2=B_3=2\ \Rightarrow\ t_2=t_3=0$};
+\end{tikzpicture}}
+\caption{A complete cold-provider certificate. Colored strands show the nine local records. The first requests $(2,0,0)$ return two real neighbors from $P_1$ and the unsent frontiers $F_2=(1,2,x_5)$, $F_3=(2,3,x_9)$. Both answer keys precede both frontiers, certifying final targets $(2,0,0)$. The rail shows stable-key order, not metric spacing.}
+\label{fig:cold-example}
+\end{figure*}

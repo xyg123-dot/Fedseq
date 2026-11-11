@@ -1,0 +1,8 @@
+FEDSEQ_REVISED privacy=calibrated noise_rng=private backend=scan n=8000 queries=50 repeats=3 build_ms=32.877 build_cpu_ms=32.8747
+algorithm mean_wall_ms mean_cpu_ms recall failed_runs mean_dp_calls
+baseline 52.6848 46.1438 1 0 2000
+dann 51.8285 46.3587 1 0 2000
+dann_star 53.153 47.4701 0.998698 2 2000
+fedseq 17.5324 14.741 1 0 487.74
+fedseq_star 57.26 50.6353 0.998073 3 1993.02
+Serial algorithm reproduction, no SGX/obliviousness claim. CSV=/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_epsilon_0.05.csv

@@ -1,0 +1,94 @@
+{
+  "completed": [
+    {
+      "id": "Rfam_raw_SourceGrouped_pilot",
+      "elapsed": 45.019097566604614,
+      "core": 2,
+      "outputs": {
+        "Rfam_raw_SourceGrouped_pilot.csv.failures.csv": "efdf976464a5be7d15a8753f2a1b4b51652864e3cde6ba8a1e0418ae64ace963",
+        "Rfam_raw_SourceGrouped_pilot.csv.allocations.csv": "e632af8db1d8301fd2f2027e3d28ba76b525603d4f795dd7f9524abe66a6d10e",
+        "Rfam_raw_SourceGrouped_pilot.csv": "ded1e9e06b6def60a8603581a5e4deb34a1c937c151e75e3ea106614a77712b5",
+        "Rfam_raw_SourceGrouped_pilot.csv.nodes.csv": "fa45c56a31bfc7ecc463f3b2420d1787bc3fcd11d749f8a9a922fc60fcc04b27"
+      },
+      "audit": {
+        "checked": 3,
+        "distance_errors": 1,
+        "tie_only": 2
+      },
+      "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+      "inputs": {
+        "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+        "--queries": "9452a8931fb1e65c6e2c1882a2d5813051c8a8df292f2fa0c88c66b6b490d000",
+        "--assignment": "5aeb3fbb513887d58cacd58349c4ec4403f00e7a7295911fb2f508e45dc34a4c"
+      }
+    },
+    {
+      "id": "Rfam_raw_IID_pilot",
+      "elapsed": 45.916661739349365,
+      "core": 1,
+      "outputs": {
+        "Rfam_raw_IID_pilot.csv.failures.csv": "cfe00367aaa9227cc0c50558728b1724398d2279db5af15cc9a133a7af917bea",
+        "Rfam_raw_IID_pilot.csv.nodes.csv": "80c040e50bc8d67458b4e686cd53f80cf846fbbf8abc008624c9c788b68fb649",
+        "Rfam_raw_IID_pilot.csv": "28c54adffb3fc62c1e53647777fb8c9a120824aa8805134252f15cadaaf9088a",
+        "Rfam_raw_IID_pilot.csv.allocations.csv": "6165a63678b1bd52d7c140e80fd6d2ca694fe86ac65099de59075d8d3fad152c"
+      },
+      "audit": {
+        "checked": 5,
+        "distance_errors": 2,
+        "tie_only": 3
+      },
+      "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+      "inputs": {
+        "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+        "--queries": "9452a8931fb1e65c6e2c1882a2d5813051c8a8df292f2fa0c88c66b6b490d000",
+        "--assignment": "866fc864409b0cc9f90d177364a34e1e886462fe39c7a5e9b517b62a7bcedda0"
+      }
+    },
+    {
+      "id": "Rfam_raw_SourceGrouped_confirmation",
+      "elapsed": 168.76939153671265,
+      "core": 2,
+      "outputs": {
+        "Rfam_raw_SourceGrouped_confirmation.csv": "7d0ffe5d48afc38cd1c9e07658bb5cd2b704fb9c46018ee990cca1ecffd641db",
+        "Rfam_raw_SourceGrouped_confirmation.csv.nodes.csv": "f11e611da68bd74f055f31d48f9f72055315f0c9b0bab916b9aec8f412c386fd",
+        "Rfam_raw_SourceGrouped_confirmation.csv.failures.csv": "843fe66fee408a35d8ca7106f08f01be68da4620bb7e246fe95302400fdaaa54",
+        "Rfam_raw_SourceGrouped_confirmation.csv.allocations.csv": "c0864ea25ef3bfca094aaf01abb09064a9afe4e53a7a2968a0e87797dbbf3790"
+      },
+      "audit": {
+        "checked": 18,
+        "distance_errors": 14,
+        "tie_only": 4
+      },
+      "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+      "inputs": {
+        "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+        "--queries": "5e634921cb75415d5bc568dbdb9039bd5cbb688b2be06e1f6ea948d6d407d14e",
+        "--assignment": "5aeb3fbb513887d58cacd58349c4ec4403f00e7a7295911fb2f508e45dc34a4c"
+      }
+    },
+    {
+      "id": "Rfam_raw_IID_confirmation",
+      "elapsed": 169.20214915275574,
+      "core": 1,
+      "outputs": {
+        "Rfam_raw_IID_confirmation.csv": "fb15ef22fe3569731cb101da45a2a9e79e5f9a70948a76ef38c373fbcd553b4d",
+        "Rfam_raw_IID_confirmation.csv.nodes.csv": "8dec0b863230d4f24bf26fdd3c7bdbc1e6c5b5048e68f8584a6a7004bb702d40",
+        "Rfam_raw_IID_confirmation.csv.failures.csv": "dd751975d3e8a02b8c5931eb8d7ba07c8a07a3df68db5f2f092d6361535ea420",
+        "Rfam_raw_IID_confirmation.csv.allocations.csv": "586f90b421333692a118d33ec8c5766da0422685f7219438391bca21787ff15a"
+      },
+      "audit": {
+        "checked": 21,
+        "distance_errors": 13,
+        "tie_only": 8
+      },
+      "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+      "inputs": {
+        "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+        "--queries": "5e634921cb75415d5bc568dbdb9039bd5cbb688b2be06e1f6ea948d6d407d14e",
+        "--assignment": "866fc864409b0cc9f90d177364a34e1e886462fe39c7a5e9b517b62a7bcedda0"
+      }
+    }
+  ],
+  "total": 4,
+  "complete": true
+}

@@ -1,0 +1,21 @@
+{
+  "id": "Rfam_canonical_NonIID_ablation_1",
+  "runs": 1350,
+  "core": 5,
+  "source_inputs": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "562a4ad6253e68e47a239f58dba05f6948131d22b2a386768560626ff619064f",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_canonical/records.txt": "819b6a9ecbda11ab911e271862d9a535a5e1399751603f70488c117cdc416229",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_canonical/queries.txt": "e11af9521a9097127fb13a054cb6d6154aaf73563a119fbb56e4419755086c34",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_canonical/NonIID_m8.txt": "52c57aa66a6889705a8f77a7949ff7331471ccc38c2bec6fd16b879c403b9c8e"
+  },
+  "elapsed": 384.50184392929077,
+  "strict_failures": 24,
+  "distance_failures": 19,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/full_results/cases/Rfam_canonical_NonIID_ablation_1.csv": "dc680b0de16c8ce987c6d2d7dd96973c6ee0ff71c94904072712e37f0b0dec14",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/full_results/cases/Rfam_canonical_NonIID_ablation_1.csv.nodes.csv": "2d9e60d2cca669841e7a0b9ea29a97ce3cfd7f0939a393da37e8eb69e8dab474",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/full_results/cases/Rfam_canonical_NonIID_ablation_1.csv.allocations.csv": "4b65766721d47173f414d7303427f449411f699df634945bd6645e51b863f9a2",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/full_results/cases/Rfam_canonical_NonIID_ablation_1.csv.failures.csv": "934aac4f9ee685df9b1b079a931c6c29525e9193523849430632958999767765"
+  }
+}

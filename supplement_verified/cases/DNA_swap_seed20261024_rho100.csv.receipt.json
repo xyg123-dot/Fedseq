@@ -1,0 +1,16 @@
+{
+  "id": "DNA_swap_seed20261024_rho100",
+  "fingerprint": "1acc33adf4190bf07a41fedbc70249009e35db8b69e4672a414e4d2901fb524c",
+  "cpu_core": 6,
+  "runs": 600,
+  "cached": false,
+  "wall_seconds": 111.97362565994263,
+  "strict_failures": 0,
+  "distance_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho100.csv": "09183a539d5dd1ddf11e6f696029b7608019813ca99c39ccfecade630efb9e54",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho100.csv.allocations.csv": "ab71a966962f2fd7a35b9e84f11e143c9bd13ad90302928ce2aa5749cac97b28",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho100.csv.nodes.csv": "6a839189ec737e6dcf74239538ec67174b2a71ee6400a7e9830262a183c77574",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho100.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+  }
+}

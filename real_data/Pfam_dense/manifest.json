@@ -1,0 +1,32 @@
+{
+  "candidate": "Pfam_dense",
+  "seed": 20261015,
+  "retained_before_cap": 268115,
+  "records": 29938,
+  "pilot_queries": 12,
+  "confirmatory_queries": 50,
+  "families": {
+    "PF00011": 9980,
+    "PF00018": 9985,
+    "PF00168": 9973
+  },
+  "length_min": 19,
+  "length_max": 128,
+  "exact_sequence_overlap": false,
+  "sequence_changes": "only alignment-gap removal and uppercase normalization; no mutation or cropping",
+  "query_selection": "fixed random permutation; first12 pilot,next50 confirmation,rest database",
+  "provider_ownership": "simulated IID round robin or family-specialized disjoint groups; sizes may differ under specialization",
+  "file_sha256": {
+    "NonIID_m16.txt": "828cef29b74a04bc0b6ca14a5f450b5333ad4be38cc8a939d5c21340d3490a76",
+    "NonIID_m8.txt": "d295ab99efbdf760b4e449a354694f769bde71b311434768c0aaaf5979706bb6",
+    "queries.txt": "624e681907eabe55cdba73ac19d16c87f47b029ea4a514555bd4a3a1355d3fb8",
+    "IID_m4.txt": "bf6abf6e1a213b7d4e8dd681cb812a8974504548c4468c54954181b0bfee02f5",
+    "IID_m8.txt": "7f3d7cce925878f52d40fd3fcc4329fd63c4cfaec892fd061ec0d6e8a5cbc786",
+    "IID_m12.txt": "a3b14bca20d1648d569880ad420b53e3458592ab803301e889068f72637578be",
+    "NonIID_m12.txt": "a386df495739cbf759868c8273b19b3c66d552cc10c43f79920a5c01b149cc1d",
+    "NonIID_m4.txt": "338c0366d79d65a1d0e89fc690099d9aeee7f286d0e928856f6652a2d73c8a04",
+    "records.txt": "cdcfcbda85857b64b65f8a8a762fdcad6cdfc2fdaacbf9485e1ae2bde0fa932d",
+    "IID_m16.txt": "cc49c4a15e10cba0460a4d40a82c1cfdb708d4bc2bbfd5b20e5b4ca07dd7e36a",
+    "pilot_queries.txt": "e08e20f423a56a2e21443996406e60e1f432c4601ce0d1ac84593846ec1aa996"
+  }
+}

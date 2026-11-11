@@ -1,0 +1,19 @@
+{
+  "conflict_cutoff_unix": 1791949643.408901,
+  "pre_conflict_cases_reused": [
+    "DNA_edit_seed20261014_rho000",
+    "DNA_edit_seed20261014_rho050",
+    "DNA_edit_seed20261014_rho100",
+    "Symbol_swap_seed20261014_rho025",
+    "Symbol_edit_seed20261014_rho000",
+    "Symbol_edit_seed20261014_rho050",
+    "Symbol_edit_seed20261014_rho100",
+    "DNA_swap_seed20261024_rho050",
+    "DNA_swap_seed20261024_rho075",
+    "DNA_swap_seed20261034_rho100",
+    "Symbol_swap_seed20261034_rho025"
+  ],
+  "remaining_cases_rerun": 37,
+  "selection": "protocol and file integrity only; no performance/accuracy selection",
+  "archived_output": "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_attempt_interrupted"
+}

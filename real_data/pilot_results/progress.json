@@ -1,0 +1,133 @@
+{
+  "total": 6,
+  "completed": [
+    {
+      "id": "UCI_Splice_NonIID_default_1",
+      "runs": 96,
+      "core": 2,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/records.txt": "2df95d0d57931a775c2e31692bb35cd560e8577f78b6933a9422d9db02450898",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/pilot_queries.txt": "18243c76a37113a0ce987bb9e993658b1a384ac4bef0d9864b37b4d4147d9d32",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/NonIID_m8.txt": "2b484ad3ea8158fc6ca227295bea92fa76526f10a4339c3159651ff3c0001f24"
+      },
+      "elapsed": 15.626803874969482,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_NonIID_default_1.csv": "fdd575ed4b5d5439ada493e9e7f065c4a04b50eb7ef57fb438ab851558675259",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_NonIID_default_1.csv.nodes.csv": "8c1cc96f45542ab4e6b096f132965bf8030dcbad798f021847be79762a96a7ae",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_NonIID_default_1.csv.allocations.csv": "f89c7fff8ca1fa73dd39e91ad89cbef4c2b2251405c9bc75ed6ef6062232bf7e",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_NonIID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "UCI_Splice_IID_default_1",
+      "runs": 96,
+      "core": 1,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/records.txt": "2df95d0d57931a775c2e31692bb35cd560e8577f78b6933a9422d9db02450898",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/pilot_queries.txt": "18243c76a37113a0ce987bb9e993658b1a384ac4bef0d9864b37b4d4147d9d32",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/IID_m8.txt": "bcc7970d5084714921537696834368931c7ed3817f9ba4db2953b3e71e2cdeed"
+      },
+      "elapsed": 15.731753587722778,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv": "70e62c1bf9bd52be9c977627ebd47b839840ad094f38cd919a6877ea82da1a8f",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.nodes.csv": "ae0ffabb1173fce801f3f6f4abdf757322fa8572f1f23970787cd82bfa496fb9",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.allocations.csv": "cfe8d68792a824b43674417a5f0432bb1f3e1d7ecee32e27b94822827a1a8342",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "Pfam_domains_IID_default_1",
+      "runs": 96,
+      "core": 2,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/records.txt": "8732cc171404ab55af4416dd95efd66eab01dd3c8708b588dc28eaa8350c1d98",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/pilot_queries.txt": "a23f766d14b0e3e0c15e89c44388e346609dd94fc7459db4d2c17b189a7821b5",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/IID_m8.txt": "13cd2c3e6a5b67e291ce3708e5c2efb9dffdc83c5fbc271b405d7bdd285e72ad"
+      },
+      "elapsed": 25.826239109039307,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_IID_default_1.csv": "0dfe17e92386f2533b7fbf54c0691413a9acc25990b07d9fd213750069762b49",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_IID_default_1.csv.nodes.csv": "f3259515a19c9675101a1d3ae817ae12df6deaa5f71889437adeebe8dfdb2928",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_IID_default_1.csv.allocations.csv": "b99444d0cdf7bd06ccaed5172d1de44939a51ea96af4ea554a8569045196fe4b",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_IID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "Pfam_domains_NonIID_default_1",
+      "runs": 96,
+      "core": 1,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/records.txt": "8732cc171404ab55af4416dd95efd66eab01dd3c8708b588dc28eaa8350c1d98",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/pilot_queries.txt": "a23f766d14b0e3e0c15e89c44388e346609dd94fc7459db4d2c17b189a7821b5",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Pfam_domains/NonIID_m8.txt": "006a9de694ba401e9e75a4d44189e19fcc123e1b75bd8263fe53513733065c7b"
+      },
+      "elapsed": 29.977193593978882,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_NonIID_default_1.csv": "e787ffbed4f56d19f545412c282c5e49da4e3d6f9266e9829362a1164fe19311",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_NonIID_default_1.csv.nodes.csv": "11913860be321ff495e9e9a07ec16f06ad3b150d59d6a3bf23fec8c2998947ff",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_NonIID_default_1.csv.allocations.csv": "3efcdc3043b42114a0bc9cb6d5b13d06b6380f9873ab71aff43893a2faf76636",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Pfam_domains_NonIID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "Rfam_RNA_IID_default_1",
+      "runs": 96,
+      "core": 2,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/records.txt": "17cef17eb2f35c12a9411e0ee2e5a9028ca78d4ad16917978386b05196774c50",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/pilot_queries.txt": "4e5faeff881c26ff058c10b1a934f137be534cc13191221845e7492c946dac86",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/IID_m8.txt": "f4c7cdcc68594cdd36d74931da030bee54c78f18ed42f9237ee227e7c29b4149"
+      },
+      "elapsed": 17.040907859802246,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_IID_default_1.csv": "b9db783f38619c5f6b64a6681fb555584309e7462eccf210e047ef3fb0d14adc",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_IID_default_1.csv.nodes.csv": "2602e9964a0d059f05d1ec0c947afcaaca7804e845c448053d5f23c3c8301ea3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_IID_default_1.csv.allocations.csv": "5435a4c0a4c3a021acb807aa6a2ff36bfffa18fbe70ce136ef7575b3f7040aae",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_IID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    },
+    {
+      "id": "Rfam_RNA_NonIID_default_1",
+      "runs": 96,
+      "core": 1,
+      "source_inputs": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/records.txt": "17cef17eb2f35c12a9411e0ee2e5a9028ca78d4ad16917978386b05196774c50",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/pilot_queries.txt": "4e5faeff881c26ff058c10b1a934f137be534cc13191221845e7492c946dac86",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/Rfam_RNA/NonIID_m8.txt": "d12322c8e76563371d00d15979e768d2936d9e16b6ea91f9f04bc32d06966ab2"
+      },
+      "elapsed": 18.0568904876709,
+      "strict_failures": 0,
+      "distance_failures": 0,
+      "output_sha256": {
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_NonIID_default_1.csv": "458135a82e06792e9bfb538576ee76075859128e0c54c8a5a0524639dbf130e3",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_NonIID_default_1.csv.nodes.csv": "783e3d7c362d26998ef930e9d322fd6f0336414adbf70d70dc9ca06a35e1f635",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_NonIID_default_1.csv.allocations.csv": "2c3772b2a698ac32d3070439adf001c0b0156ec9a0e25724b3bfef9e43c4c208",
+        "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/Rfam_RNA_NonIID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+      }
+    }
+  ],
+  "failed": [],
+  "complete": true
+}

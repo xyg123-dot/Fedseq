@@ -1,0 +1,16 @@
+{
+  "id": "dna_cluster_order_IID_k_64",
+  "fingerprint": "6e3aa8a0e981e1ca483afb97d1c727cf70e02257c6f2c51fa7c7452026879873",
+  "cpu_core": 1,
+  "cached": false,
+  "wall_seconds": 48.45877194404602,
+  "runs": 750,
+  "strict_failures": 12,
+  "nonnoisy_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv": "264b396198ab1b133447b07c634ef3cdb471206871de610f9be93b942acc8923",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.allocations.csv": "78c9c0cbe8623cb4327e10357027f38f39c06e26fae1d7ae7b9363e1aefffcb6",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.nodes.csv": "4152fd924c301050aadeb316396827563bd425cbf4d8ade1bb193535f51ba198",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/results_calibrated/cases/dna_cluster_order_IID_k_64.csv.failures.csv": "378afe257244c37bc19fcb6a0e1fe63b9a103a68422d142b2a97ce4d3824fbfe"
+  }
+}

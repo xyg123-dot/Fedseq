@@ -1,0 +1,12 @@
+\subsection{Real Nucleotide Sequences}
+\label{sec:real}
+\input{table_raw_rfam}
+Figure~\ref{fig:comparison}(i)--(l) and Figure~\ref{fig:ablation}(i)--(l) use the same minimally processed Rfam sample. At default, the DANN/FedSeq CPU ratios are 6.67$\times$ (95\% query-bootstrap interval 4.98--8.81$\times$) under IID and 7.83$\times$ (95\% query-bootstrap interval 5.91--10.47$\times$) under family specialization. Table~\ref{tab:raw-rfam} gives the corresponding means. DANN/FedSeq exact-distance counts are 10964.46/1345.30 under IID and 10570.02/1044.30 under Non-IID. The bigram control takes 198.11 and 186.92 ms, respectively. The noisy CPU ratios are 3.16$\times$ and 4.53$\times$, respectively.
+
+The 39 confirmation queries without identical database content retain clean CPU ratios of 6.27$\times$ and 7.51$\times$. This regrouping uses the same measured queries, not a new independent sample. Exact duplicate matches therefore do not account for the observed default advantage.
+
+The matched ablation separates local filtering from omission. Under IID, order-only and combined CPU have a ratio of 1.003 (95\% interval 0.970--1.042). Under specialization, their exact-distance counts are 1119.84 and 1044.30; their CPU ratio is 1.087 (95\% interval 1.048--1.130). The combined method reduces mean CPU by 8.0\%. Only 17 records reside in each vault shard at default, limiting the work available for omission. Thus the dominant gain here comes from order filtering; cold scheduling depends on the cost of the excluded shards, not merely their number.
+
+Under IID, the noisy Lap0/FedSeq$^*$ CPU ratio is 1.004 (95\% interval 0.967--1.039). This matched cohort does not establish an additional runtime gain from integer noise alone.
+
+With the collection and queries fixed, Figure~\ref{fig:robustness}(c) gives clean CPU ratios of 6.75$\times$, 6.53$\times$, 8.01$\times$ at $\rho=0,.5,1$. Unequal family volumes remain. All 12,300 native unperturbed runs match the stable-key oracle. Table~\ref{tab:accuracy} reports the noisy sweep and concentration errors; failures remain in CPU means.

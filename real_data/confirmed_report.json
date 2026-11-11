@@ -1,0 +1,92 @@
+{
+  "confirmed_dataset": {
+    "candidate": "Rfam_canonical",
+    "seed": 20261015,
+    "retained_before_cap": 393064,
+    "records": 12391,
+    "pilot_queries": 12,
+    "confirmatory_queries": 50,
+    "families": {
+      "RF00001": 9948,
+      "RF00006": 2443
+    },
+    "length_min": 45,
+    "length_max": 128,
+    "exact_sequence_overlap": false,
+    "sequence_changes": "uppercase and U-to-T nucleotide normalization before exact deduplication; no mutation, cropping or padding",
+    "query_selection": "fixed random permutation; first12 pilot,next50 confirmation,rest database",
+    "provider_ownership": "simulated IID round robin or family-specialized disjoint groups; sizes may differ under specialization",
+    "file_sha256": {
+      "NonIID_m16.txt": "ad1b54dc75d7856d79ea3e9ca7c7da162a9cc5698fa5f2eb51ff1721f075839e",
+      "NonIID_m8.txt": "52c57aa66a6889705a8f77a7949ff7331471ccc38c2bec6fd16b879c403b9c8e",
+      "queries.txt": "e11af9521a9097127fb13a054cb6d6154aaf73563a119fbb56e4419755086c34",
+      "IID_m4.txt": "86f7542569a122b911c22ca8a06b566a6d25f3d2a8466a27c2e21afa8a9d6765",
+      "IID_m8.txt": "3a1e1a7dfb018d46f05873f8689d8aebbfbd894af72f81d80eaa81e712651b94",
+      "IID_m12.txt": "faf985004e1b3b8c0774fe9ff9364dde5f8bd3051f188da5a5244d09e0f19cb8",
+      "NonIID_m12.txt": "f7d5d8c1a7c6a11f14954d11582f1b619ef5c308becb23358227d8e36c544c0d",
+      "NonIID_m4.txt": "df133d91187751e8bf50206d4bee591cec1937a935c4ebe04060ad7c25cc414d",
+      "records.txt": "819b6a9ecbda11ab911e271862d9a535a5e1399751603f70488c117cdc416229",
+      "IID_m16.txt": "b491aeacc934f64085503b7d5b55d884337f8e54d91d18ced3508ef89c0138a8",
+      "pilot_queries.txt": "d1e3619ad79c9d007c54ad6933926d61044b657ddb70bac4df9d956eabbdd327"
+    },
+    "original_pilot_overlap": 0
+  },
+  "confirmed_runs": 23400,
+  "clean_runs": 10500,
+  "noisy_runs": 12900,
+  "default_ratios": {
+    "IID": {
+      "id": "Rfam_canonical_IID_default_1",
+      "left": "dann",
+      "right": "fedseq",
+      "cpu_ratio": 7.367536437018954,
+      "ratio_ci95": [
+        5.752863264557229,
+        9.691452311292617
+      ]
+    },
+    "NonIID": {
+      "id": "Rfam_canonical_NonIID_default_1",
+      "left": "dann",
+      "right": "fedseq",
+      "cpu_ratio": 8.155924183203132,
+      "ratio_ci95": [
+        6.039061139424737,
+        11.303392306421403
+      ]
+    }
+  },
+  "strict_failures": 362,
+  "distance_failures": 256,
+  "audited_failures": 362,
+  "all_pilots": {
+    "selected": "Rfam_full",
+    "criterion": "maximize minimum IID/NonIID DANN/FedSeq pilot ratio among fixed candidates",
+    "pilot_ratios": {
+      "UCI_Splice": [
+        1.175468234807469,
+        0.7246031472274608
+      ],
+      "Pfam_domains": [
+        1.6145098057386391,
+        1.246433012202418
+      ],
+      "Rfam_RNA": [
+        1.8357785215788722,
+        2.101783852959518
+      ],
+      "Pfam_dense": [
+        2.672768383471998,
+        2.1472901240664637
+      ],
+      "Rfam_full": [
+        6.426947762888053,
+        7.776349481849938
+      ]
+    },
+    "confirmatory_queries_not_used_for_selection": true,
+    "no_additional_candidate_search": true,
+    "confirmed_dataset": "Rfam_canonical",
+    "canonicalization_reason": "U-to-T correction before confirmation, with no overlap of confirmation queries and earlier RNA pilot queries"
+  }
+}

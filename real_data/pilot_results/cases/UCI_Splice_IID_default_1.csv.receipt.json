@@ -1,0 +1,21 @@
+{
+  "id": "UCI_Splice_IID_default_1",
+  "runs": 96,
+  "core": 1,
+  "source_inputs": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/benchmark/fedknn_benchmark.cpp": "a1310b6b0fa3c180cb30a4c9cad758e019825fb1f982c282876473c2aa83a275",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/run_real.py": "23c0c47889d7598ad34c920bcfdd9fd31045329dc1e13aac91891206c42f5420",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/records.txt": "2df95d0d57931a775c2e31692bb35cd560e8577f78b6933a9422d9db02450898",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/pilot_queries.txt": "18243c76a37113a0ce987bb9e993658b1a384ac4bef0d9864b37b4d4147d9d32",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/UCI_Splice/IID_m8.txt": "bcc7970d5084714921537696834368931c7ed3817f9ba4db2953b3e71e2cdeed"
+  },
+  "elapsed": 15.731753587722778,
+  "strict_failures": 0,
+  "distance_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv": "70e62c1bf9bd52be9c977627ebd47b839840ad094f38cd919a6877ea82da1a8f",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.nodes.csv": "ae0ffabb1173fce801f3f6f4abdf757322fa8572f1f23970787cd82bfa496fb9",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.allocations.csv": "cfe8d68792a824b43674417a5f0432bb1f3e1d7ecee32e27b94822827a1a8342",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/real_data/pilot_results/cases/UCI_Splice_IID_default_1.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+  }
+}

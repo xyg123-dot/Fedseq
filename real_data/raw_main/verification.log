@@ -1,0 +1,32 @@
+{
+  "pages": 13,
+  "body_pages": 12,
+  "reference_pages": 1,
+  "cited_references": 43,
+  "all_main_rfam_minimally_processed": true,
+  "raw_runs": 27600,
+  "raw_native_clean_exact": 12300,
+  "raw_transport_clean_exact": 900,
+  "native_noisy_strict_replayed": 432,
+  "native_distance_errors": 266,
+  "transport_noisy_strict_errors": 36,
+  "transport_distance_errors": 18,
+  "table_cells_checked": 42,
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "algorithm_implementation_unchanged": true,
+  "synthetic_measurements_unchanged": true,
+  "sha256": {
+    "main.tex": "eda3b58bebbefc302b3c99ffa7ab2860a8e6527cec076a37d40a065bf6c0ef77",
+    "real_setup.tex": "fe696644917d3f9ee6cdb010195717c17cf5bbbc42da82e3d70cb4512fa871a2",
+    "real_results.tex": "ce4e472b97ec00b5aeeb1330553d6d3b4fdf301090843b0a712880df8987a9d2",
+    "experiment_results.tex": "32135c1ca0cc70d38ab0a754488f4d01444649badbe5f6e3cc96ba1d6a116517",
+    "table_raw_rfam.tex": "f51353b290219107417e97ccfecc4be7cecaef1d4e3d721167f7cb9099f9d6ca",
+    "table_accuracy.tex": "2408f16a972f8beb5a3383d7adf3d3ceff86d9120f6ddaad47197ad4b27e2b2b",
+    "table_transport.tex": "5456089ab3aa4d156af3dfe81b713a39e9e4951020a48df9288886b32244fd81",
+    "main.pdf": "98c5ab627b09ad1adddbaefb475579b64ca1520bb1af029768b00a47351ef0e6",
+    "figures/comparison_all.pdf": "3d9d75f47130afe1233781ba84307674e4319d388eee398b37cb772a6268d154",
+    "figures/ablation_all.pdf": "b61c35bae043a6288a8aafd4ba78d290422431f1005b40eeb4b114cd96b2f8f5",
+    "figures/robustness_all.pdf": "eaa16d28fffe5587b12ccb0aab71237ae72af407c97c51d0bdb8a172172345f3"
+  }
+}

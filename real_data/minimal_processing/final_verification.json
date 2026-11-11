@@ -1,0 +1,27 @@
+{
+  "main_pages": 13,
+  "body_pages": 12,
+  "reference_pages": 1,
+  "raw_runs": 3850,
+  "raw_clean_runs": 2790,
+  "raw_strict_failures": 64,
+  "raw_distance_failures": 40,
+  "independently_replayed": 64,
+  "all_clean_exact": true,
+  "paper_self_contained": true,
+  "supplement_references_in_main": 0,
+  "all_pages_visually_checked": true,
+  "undefined_references": 0,
+  "overfull_boxes": 0,
+  "algorithms_unchanged": true,
+  "files": {
+    "paper/main.pdf": "917a47b6655ee43c4bbae57f46301fa6108c38410174aa7c798c46e315c6258d",
+    "paper/main.tex": "dab75a505868addb59a32ba0fe94cf8137e06acd47bbd503e7d17576ddbfb8a2",
+    "paper/real_setup.tex": "263b35ad9a6383e58f1dced48d8c47a78b6cbda4d4b6c524d14b0ad3c750fb4d",
+    "paper/real_results.tex": "8572805ebf232bdd028d97b757d9a8140368334cf764b234a8a8c1a583b7bc9c",
+    "paper/experiment_results.tex": "a6e427e9e7de7c80282f7e5cd5d84d4c9f4d4e343455c210a1b0757e7cbe0e84",
+    "paper/table_accuracy.tex": "dd5287e20ed40c02ce3ea8fc607cf77c870efd1d60064aa82ecb9660fd04957e",
+    "paper/table_raw_rfam.tex": "4302e1037cd80a9c7903bcb720b83ae99a7cb5325d48db0cef41dab80f8d41e8",
+    "paper/table_transport.tex": "3e81f317ba92e9217883991bff2e67e2a624c18b0a2dda08cdcb34c8a4819b99"
+  }
+}

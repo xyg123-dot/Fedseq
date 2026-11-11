@@ -1,0 +1,33 @@
+{
+  "id": "DNA_swap_seed20261024_rho050",
+  "fingerprint": "1acc33adf4190bf07a41fedbc70249009e35db8b69e4672a414e4d2901fb524c",
+  "cpu_core": 8,
+  "runs": 600,
+  "cached": false,
+  "wall_seconds": 67.45548129081726,
+  "strict_failures": 0,
+  "distance_failures": 0,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho050.csv": "43d1b5615e52826635944b2f91a8647f56568df52f34f5a011fb35bcd672a1e7",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho050.csv.allocations.csv": "955132beb461b461401a3e17a565ba39de3ab9c219aad543407085cc800d5c6d",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho050.csv.nodes.csv": "3d5556283ba487c8007e4a2b25c3bdcaa5a7ac66fb72070937f8811939b79dce",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/DNA_swap_seed20261024_rho050.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+  },
+  "source_receipt": {
+    "id": "DNA_swap_seed20261024_rho050",
+    "fingerprint": "6a8aa02abd547ac5cb14a0cac5764ed7ef4f70e445362ce62f97b3ca3919c59f",
+    "cpu_core": 8,
+    "runs": 600,
+    "cached": false,
+    "wall_seconds": 67.45548129081726,
+    "strict_failures": 0,
+    "distance_failures": 0,
+    "output_sha256": {
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/DNA_swap_seed20261024_rho050.csv": "43d1b5615e52826635944b2f91a8647f56568df52f34f5a011fb35bcd672a1e7",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/DNA_swap_seed20261024_rho050.csv.allocations.csv": "955132beb461b461401a3e17a565ba39de3ab9c219aad543407085cc800d5c6d",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/DNA_swap_seed20261024_rho050.csv.nodes.csv": "3d5556283ba487c8007e4a2b25c3bdcaa5a7ac66fb72070937f8811939b79dce",
+      "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_results/cases/DNA_swap_seed20261024_rho050.csv.failures.csv": "4b6d106a977c2c7eeaa3f9a510443f7e674e844aff850243cdf16c02b8090be7"
+    }
+  },
+  "import_reason": "Completed before the conflicting restart; identical benchmark sources, populations and partition bytes."
+}

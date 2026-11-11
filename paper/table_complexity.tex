@@ -1,0 +1,18 @@
+\begin{table}[t]
+\centering
+\caption{Query CPU bounds by stage. $Q=|q|$, $\mathcal L=\sum_x|x|$, $V_L=\sum_i\sum_{x\in\mathcal V_i}|x|$; $H$ counts visited heap entries.}
+\label{tab:complexity}
+\small
+\begin{tabular}{@{}ll@{}}
+\toprule
+Stage & CPU bound \\
+\midrule
+Count and short-query order bounds & $O(N+\mathcal L)$ \\
+Local key sorting & $O(\sum_i n_i\log(n_i+1))$ \\
+Distinct exact comparisons & $O(QV_L)$ \\
+Prefix heap updates & $O(H\log(k+1))$ \\
+Broker merge and refinement & $O(mk\log(mk+1))$ \\
+Two noisy quota vectors & $2m$ scalar draws \\
+\bottomrule
+\end{tabular}
+\end{table}

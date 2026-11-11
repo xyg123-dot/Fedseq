@@ -1,0 +1,16 @@
+{
+  "id": "Symbol_edit_seed20261024_rho050",
+  "fingerprint": "1acc33adf4190bf07a41fedbc70249009e35db8b69e4672a414e4d2901fb524c",
+  "cpu_core": 6,
+  "runs": 900,
+  "cached": false,
+  "wall_seconds": 240.57918453216553,
+  "strict_failures": 6,
+  "distance_failures": 1,
+  "output_sha256": {
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261024_rho050.csv": "62959e6423fe6529224b5e8aafcf45e1210ee628d5f28da7c43e8a3a5ecbc99c",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261024_rho050.csv.allocations.csv": "49377be8a97fa2570efd7e675bfa856908686f35e0591af942c949b854ef8158",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261024_rho050.csv.nodes.csv": "9036018e04756f3300fdf9048c21d360edc08d1b52a741920225e8e19b7a8ca6",
+    "/workspace/scratch/f99f23b1680c/fedseq_revised/supplement_verified/cases/Symbol_edit_seed20261024_rho050.csv.failures.csv": "c527a8b0f2ecf8dfbe5908cbb87733b1fcb72931b60689e32910e1417a440d57"
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "additional_native_runs": 2700,
+  "additional_transport_runs": 1500,
+  "all_clean_native_exact": true,
+  "native_strict_replayed": 45,
+  "native_distance_errors": 32,
+  "transport_errors": [
+    {
+      "partition": "IID",
+      "algorithm": "baseline",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "IID",
+      "algorithm": "dann",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "IID",
+      "algorithm": "dann_star",
+      "strict": 13,
+      "distance": 12
+    },
+    {
+      "partition": "IID",
+      "algorithm": "fedseq",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "IID",
+      "algorithm": "fedseq_star",
+      "strict": 3,
+      "distance": 1
+    },
+    {
+      "partition": "NonIID",
+      "algorithm": "baseline",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "NonIID",
+      "algorithm": "dann",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "NonIID",
+      "algorithm": "dann_star",
+      "strict": 10,
+      "distance": 9
+    },
+    {
+      "partition": "NonIID",
+      "algorithm": "fedseq",
+      "strict": 0,
+      "distance": 0
+    },
+    {
+      "partition": "NonIID",
+      "algorithm": "fedseq_star",
+      "strict": 6,
+      "distance": 3
+    }
+  ],
+  "graded_ratios": [
+    7.3473196489008386,
+    7.407522260602852,
+    7.232184097023273
+  ]
+}

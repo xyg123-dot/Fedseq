@@ -1,0 +1,30 @@
+{
+  "selected": "Rfam_full",
+  "criterion": "maximize minimum IID/NonIID DANN/FedSeq pilot ratio among fixed candidates",
+  "pilot_ratios": {
+    "UCI_Splice": [
+      1.175468234807469,
+      0.7246031472274608
+    ],
+    "Pfam_domains": [
+      1.6145098057386391,
+      1.246433012202418
+    ],
+    "Rfam_RNA": [
+      1.8357785215788722,
+      2.101783852959518
+    ],
+    "Pfam_dense": [
+      2.672768383471998,
+      2.1472901240664637
+    ],
+    "Rfam_full": [
+      6.426947762888053,
+      7.776349481849938
+    ]
+  },
+  "confirmatory_queries_not_used_for_selection": true,
+  "no_additional_candidate_search": true,
+  "confirmed_dataset": "Rfam_canonical",
+  "canonicalization_reason": "U-to-T correction before confirmation, with no overlap of confirmation queries and earlier RNA pilot queries"
+}

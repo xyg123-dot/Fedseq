@@ -1,0 +1,26 @@
+{
+  "id": "Rfam_raw_rho_0.5",
+  "runs": 900,
+  "core": 2,
+  "seconds": 195.9414050579071,
+  "inputs": {
+    "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+    "--queries": "5e634921cb75415d5bc568dbdb9039bd5cbb688b2be06e1f6ea948d6d407d14e",
+    "--assignment": "0c65c962d107c2474fb4ef8d3e11006e8f8f8c17616d31ddc3f147ac66ea56ad"
+  },
+  "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+  "outputs": {
+    "Rfam_raw_rho_0.5.csv.allocations.csv": "736dba317fc577eb02d2b955fdfaf2077457e3b7d2bf98778afcc9e62da5cb1a",
+    "Rfam_raw_rho_0.5.csv.nodes.csv": "70aba2277ea5c122a772c29e9a14c6f2b0852ae2bd2a2ad9ec9f63f61b8bd95f",
+    "Rfam_raw_rho_0.5.csv": "27828b820fa11a70915553bd3c179479775cb2852b13a623920a18ec7b70a36b",
+    "Rfam_raw_rho_0.5.csv.audit.json": "2320c55f231de620cd209a0ac3dea1a4221be2b5bf6322c6c7809348699eaf2a",
+    "Rfam_raw_rho_0.5.csv.failures.csv": "80d7e408ce69516f116f47e842822a6e5f9699534005110cf84e5428df1ce745"
+  },
+  "audit": {
+    "checked": 17,
+    "distance_errors": 11,
+    "tie_only": 6
+  },
+  "strict_failures": 17,
+  "distance_failures": 11
+}

@@ -1,0 +1,26 @@
+{
+  "id": "Rfam_raw_NonIID_k_32",
+  "runs": 750,
+  "core": 2,
+  "seconds": 124.85807800292969,
+  "inputs": {
+    "--data": "57c3497753574eab5a2d6204cc884093ec9262286c01d9ef41d579efb0ab728b",
+    "--queries": "5e634921cb75415d5bc568dbdb9039bd5cbb688b2be06e1f6ea948d6d407d14e",
+    "--assignment": "851e2453b1801aefdf7a1f6e7ed3393682278c9d410ef982e3125718d0eb48f4"
+  },
+  "binary_sha256": "a2db1a3f6207adcc4bc380e25849be35b297884883f074b5e0f3f9e4015ab765",
+  "outputs": {
+    "Rfam_raw_NonIID_k_32.csv.nodes.csv": "96b0c00073d248de2f909cfc008097c2cd501a4d4f0563d91d3dc1d34e30ed8b",
+    "Rfam_raw_NonIID_k_32.csv": "b6ad9b70fe927adcfb41146bf83ea34c46b77f1c96d4995a4fa0e276cc7329d5",
+    "Rfam_raw_NonIID_k_32.csv.allocations.csv": "173ddaede823ffbcc0ab8a75551907c8e1c4bf539b0e1cbf6369aa445699c109",
+    "Rfam_raw_NonIID_k_32.csv.failures.csv": "7570c63f8cf00988ee51dcd6fcb42027f44374e4fc165530502e7d291839b0ec",
+    "Rfam_raw_NonIID_k_32.csv.audit.json": "b7de9ff0f3220a333150a75af14c57405648d7516011a9b613375f58dcc1cd54"
+  },
+  "audit": {
+    "checked": 3,
+    "distance_errors": 1,
+    "tie_only": 2
+  },
+  "strict_failures": 3,
+  "distance_failures": 1
+}

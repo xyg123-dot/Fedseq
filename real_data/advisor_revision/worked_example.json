@@ -1,0 +1,114 @@
+{
+  "query": "AABB",
+  "k": 2,
+  "rows": [
+    {
+      "id": 1,
+      "provider": 1,
+      "string": "AABB",
+      "count": 0,
+      "lcs": 4,
+      "bound": 0,
+      "distance": 0
+    },
+    {
+      "id": 2,
+      "provider": 1,
+      "string": "AABA",
+      "count": 1,
+      "lcs": 3,
+      "bound": 1,
+      "distance": 1
+    },
+    {
+      "id": 3,
+      "provider": 1,
+      "string": "ABAB",
+      "count": 0,
+      "lcs": 3,
+      "bound": 1,
+      "distance": 2
+    },
+    {
+      "id": 4,
+      "provider": 2,
+      "string": "BBAA",
+      "count": 0,
+      "lcs": 2,
+      "bound": 2,
+      "distance": 4
+    },
+    {
+      "id": 5,
+      "provider": 2,
+      "string": "BAAB",
+      "count": 0,
+      "lcs": 3,
+      "bound": 1,
+      "distance": 2
+    },
+    {
+      "id": 6,
+      "provider": 2,
+      "string": "BBBB",
+      "count": 2,
+      "lcs": 2,
+      "bound": 2,
+      "distance": 2
+    },
+    {
+      "id": 7,
+      "provider": 3,
+      "string": "CCCC",
+      "count": 4,
+      "lcs": 0,
+      "bound": 4,
+      "distance": 4
+    },
+    {
+      "id": 8,
+      "provider": 3,
+      "string": "CCCA",
+      "count": 3,
+      "lcs": 1,
+      "bound": 3,
+      "distance": 4
+    },
+    {
+      "id": 9,
+      "provider": 3,
+      "string": "BBCC",
+      "count": 2,
+      "lcs": 2,
+      "bound": 2,
+      "distance": 4
+    }
+  ],
+  "origin": [
+    2,
+    0,
+    0
+  ],
+  "dann_first": [
+    2,
+    1,
+    1
+  ],
+  "fedseq_first": [
+    2,
+    0,
+    0
+  ],
+  "fedseq_second": [
+    2,
+    0,
+    0
+  ],
+  "exact_answer": [
+    1,
+    2
+  ],
+  "dann_distances": 8,
+  "fedseq_distances": 2,
+  "scope": "Analytical toy example with exact unmapped unigram counts; not an experimental measurement."
+}
