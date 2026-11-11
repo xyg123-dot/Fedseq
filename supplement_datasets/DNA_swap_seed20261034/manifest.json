@@ -1,0 +1,37 @@
+{
+  "name": "DNA_swap_seed20261034",
+  "kind": "dna",
+  "seed": 20261034,
+  "records": 8000,
+  "queries": 52,
+  "length_bytes": 128,
+  "families": 4,
+  "providers": 8,
+  "near_fraction": 0.4,
+  "near_swaps": [
+    2,
+    6
+  ],
+  "far_swaps": [
+    32,
+    64
+  ],
+  "query_swaps": [
+    2,
+    6
+  ],
+  "query_protocol": "Independent sequences excluded from database; balanced family sampling",
+  "population": "Deliberately fixed per-family character histograms, permutation perturbations; controlled mechanism stress test, not biological or natural language realism",
+  "mix_definition": "Probability of assigning a record to a uniformly random provider instead of one of its two family-home providers; random destination can equal home",
+  "sha256": {
+    "centers.txt": "3d4fa668807276c7d3ebbdce3bc0a3a35e2f4e8ec7789a80d62a5766c5b9a810",
+    "providers_mix_000.txt": "c5cd157c4994723df060e28cd617a175a824ea5ad12ac198eaf455e276e962f9",
+    "providers_mix_025.txt": "03442c013883a60f919482af960d89636ca3484d6842de7ed8c87b606cd55420",
+    "providers_mix_050.txt": "524104d45448d02cfa087dfe18e1aa6a93435a914d2b8b065daaa84db5943530",
+    "providers_mix_100.txt": "199d4c062b115345d29a253b93b4b89468066e5e40998b56a9ca63230096bd63",
+    "queries.txt": "d63999e5e809bb27fafda0ceb5f693cffdd000d8d449dbbfe07794f9a7260b30",
+    "query_metadata.csv": "b94ad3bb7ed0f8c5968b0ddd94de8fa74a33ca3a9ad5eb779df9025bc4471455",
+    "record_metadata.csv": "3056bd4cf034e848f5f033bba2d6be3ef7e3d463826f8fde1b22e7075e0f9f58",
+    "records.txt": "24934440df3ecb45c75e38207416b2e833956f00d0ae7d59f4a9a585c42c1632"
+  }
+}
